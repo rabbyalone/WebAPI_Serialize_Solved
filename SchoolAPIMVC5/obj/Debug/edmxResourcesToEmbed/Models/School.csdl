@@ -1,0 +1,479 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="SchoolManagementDBModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="ClassRoutine">
+    <Key>
+      <PropertyRef Name="RoutineID" />
+    </Key>
+    <Property Name="RoutineID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ClassID" Type="Int32" />
+    <Property Name="SectionID" Type="Int32" />
+    <Property Name="SubjectID" Type="Int32" />
+    <Property Name="DayNam" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="StartingTime" Type="DateTime" Precision="3" />
+    <Property Name="EndingTiem" Type="DateTime" Precision="3" />
+    <NavigationProperty Name="tblClass" Relationship="Self.FK__ClassRout__Class__24927208" FromRole="ClassRoutine" ToRole="tblClass" />
+    <NavigationProperty Name="SECTION" Relationship="Self.FK__ClassRout__Secti__25869641" FromRole="ClassRoutine" ToRole="SECTION" />
+    <NavigationProperty Name="SubjectInfo" Relationship="Self.FK__ClassRout__Subje__267ABA7A" FromRole="ClassRoutine" ToRole="SubjectInfo" />
+  </EntityType>
+  <EntityType Name="Parent">
+    <Key>
+      <PropertyRef Name="ParentID" />
+    </Key>
+    <Property Name="ParentID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ParentName" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="ParentAddress" Type="String" MaxLength="200" FixedLength="false" Unicode="false" />
+    <Property Name="ParentMobile" Type="String" MaxLength="15" FixedLength="false" Unicode="false" />
+    <Property Name="ParentLandPhone" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="ParentEmail" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="ParentPassword" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="ParentWork" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="ParentPhoto" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="Students" Relationship="SchoolManagementDBModel.FK__Student__ParentI__44FF419A" FromRole="Parent" ToRole="Student" />
+  </EntityType>
+  <EntityType Name="SECTION">
+    <Key>
+      <PropertyRef Name="SectionID" />
+    </Key>
+    <Property Name="SectionID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="SectionName" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="ClassRoutines" Relationship="Self.FK__ClassRout__Secti__25869641" FromRole="SECTION" ToRole="ClassRoutine" />
+    <NavigationProperty Name="tblClasses" Relationship="Self.FK__tblClass__Sectio__145C0A3F" FromRole="SECTION" ToRole="tblClass" />
+    <NavigationProperty Name="Students" Relationship="SchoolManagementDBModel.FK__Student__Section__440B1D61" FromRole="SECTION" ToRole="Student" />
+  </EntityType>
+  <EntityType Name="SubjectInfo">
+    <Key>
+      <PropertyRef Name="SubjectID" />
+    </Key>
+    <Property Name="SubjectID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="SubjectName" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="AuthorName" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="ClassID" Type="Int32" />
+    <NavigationProperty Name="ClassRoutines" Relationship="Self.FK__ClassRout__Subje__267ABA7A" FromRole="SubjectInfo" ToRole="ClassRoutine" />
+    <NavigationProperty Name="tblClass" Relationship="Self.FK__SubjectIn__Class__182C9B23" FromRole="SubjectInfo" ToRole="tblClass" />
+    <NavigationProperty Name="MARKS" Relationship="SchoolManagementDBModel.FK__MARKS__SubjectID__5629CD9C" FromRole="SubjectInfo" ToRole="MARK" />
+  </EntityType>
+  <EntityType Name="tblClass">
+    <Key>
+      <PropertyRef Name="ClassID" />
+    </Key>
+    <Property Name="ClassID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ClassName" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="SectionID" Type="Int32" />
+    <Property Name="TeacharID" Type="Int32" />
+    <NavigationProperty Name="ClassRoutines" Relationship="Self.FK__ClassRout__Class__24927208" FromRole="tblClass" ToRole="ClassRoutine" />
+    <NavigationProperty Name="SECTION" Relationship="Self.FK__tblClass__Sectio__145C0A3F" FromRole="tblClass" ToRole="SECTION" />
+    <NavigationProperty Name="SubjectInfoes" Relationship="Self.FK__SubjectIn__Class__182C9B23" FromRole="tblClass" ToRole="SubjectInfo" />
+    <NavigationProperty Name="Teacher" Relationship="Self.FK__tblClass__Teacha__15502E78" FromRole="tblClass" ToRole="Teacher" />
+    <NavigationProperty Name="Attendences" Relationship="SchoolManagementDBModel.FK__Attendenc__Class__4F7CD00D" FromRole="tblClass" ToRole="Attendence" />
+    <NavigationProperty Name="Exams" Relationship="SchoolManagementDBModel.FK__Exam__ClassID__47DBAE45" FromRole="tblClass" ToRole="Exam" />
+    <NavigationProperty Name="MARKS" Relationship="SchoolManagementDBModel.FK__MARKS__ClassID__5535A963" FromRole="tblClass" ToRole="MARK" />
+    <NavigationProperty Name="Students" Relationship="SchoolManagementDBModel.FK__Student__ClassID__4316F928" FromRole="tblClass" ToRole="Student" />
+  </EntityType>
+  <EntityType Name="Teacher">
+    <Key>
+      <PropertyRef Name="TeacherID" />
+    </Key>
+    <Property Name="TeacherID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="TeacherName" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="TeacherAddress" Type="String" MaxLength="200" FixedLength="false" Unicode="false" />
+    <Property Name="TeacherPhone" Type="String" MaxLength="15" FixedLength="false" Unicode="false" />
+    <Property Name="TeacherEmail" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="TeacherPhoto" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="TeacherDesignation" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="Gender" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="Religion" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="JoiningDate" Type="DateTime" Precision="0" />
+    <Property Name="UserName" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Password" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="tblClasses" Relationship="Self.FK__tblClass__Teacha__15502E78" FromRole="Teacher" ToRole="tblClass" />
+  </EntityType>
+  <Association Name="FK__ClassRout__Class__24927208">
+    <End Role="tblClass" Type="Self.tblClass" Multiplicity="0..1" />
+    <End Role="ClassRoutine" Type="Self.ClassRoutine" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tblClass">
+        <PropertyRef Name="ClassID" />
+      </Principal>
+      <Dependent Role="ClassRoutine">
+        <PropertyRef Name="ClassID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__ClassRout__Secti__25869641">
+    <End Role="SECTION" Type="Self.SECTION" Multiplicity="0..1" />
+    <End Role="ClassRoutine" Type="Self.ClassRoutine" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="SECTION">
+        <PropertyRef Name="SectionID" />
+      </Principal>
+      <Dependent Role="ClassRoutine">
+        <PropertyRef Name="SectionID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__ClassRout__Subje__267ABA7A">
+    <End Role="SubjectInfo" Type="Self.SubjectInfo" Multiplicity="0..1" />
+    <End Role="ClassRoutine" Type="Self.ClassRoutine" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="SubjectInfo">
+        <PropertyRef Name="SubjectID" />
+      </Principal>
+      <Dependent Role="ClassRoutine">
+        <PropertyRef Name="SubjectID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__tblClass__Sectio__145C0A3F">
+    <End Role="SECTION" Type="Self.SECTION" Multiplicity="0..1" />
+    <End Role="tblClass" Type="Self.tblClass" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="SECTION">
+        <PropertyRef Name="SectionID" />
+      </Principal>
+      <Dependent Role="tblClass">
+        <PropertyRef Name="SectionID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__SubjectIn__Class__182C9B23">
+    <End Role="tblClass" Type="Self.tblClass" Multiplicity="0..1" />
+    <End Role="SubjectInfo" Type="Self.SubjectInfo" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tblClass">
+        <PropertyRef Name="ClassID" />
+      </Principal>
+      <Dependent Role="SubjectInfo">
+        <PropertyRef Name="ClassID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__tblClass__Teacha__15502E78">
+    <End Role="Teacher" Type="Self.Teacher" Multiplicity="0..1" />
+    <End Role="tblClass" Type="Self.tblClass" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Teacher">
+        <PropertyRef Name="TeacherID" />
+      </Principal>
+      <Dependent Role="tblClass">
+        <PropertyRef Name="TeacharID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="SchoolManagementDBEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="ClassRoutines" EntityType="Self.ClassRoutine" />
+    <EntitySet Name="Parents" EntityType="Self.Parent" />
+    <EntitySet Name="SECTIONs" EntityType="Self.SECTION" />
+    <EntitySet Name="SubjectInfoes" EntityType="Self.SubjectInfo" />
+    <EntitySet Name="tblClasses" EntityType="Self.tblClass" />
+    <EntitySet Name="Teachers" EntityType="Self.Teacher" />
+    <AssociationSet Name="FK__ClassRout__Class__24927208" Association="Self.FK__ClassRout__Class__24927208">
+      <End Role="tblClass" EntitySet="tblClasses" />
+      <End Role="ClassRoutine" EntitySet="ClassRoutines" />
+    </AssociationSet>
+    <AssociationSet Name="FK__ClassRout__Secti__25869641" Association="Self.FK__ClassRout__Secti__25869641">
+      <End Role="SECTION" EntitySet="SECTIONs" />
+      <End Role="ClassRoutine" EntitySet="ClassRoutines" />
+    </AssociationSet>
+    <AssociationSet Name="FK__ClassRout__Subje__267ABA7A" Association="Self.FK__ClassRout__Subje__267ABA7A">
+      <End Role="SubjectInfo" EntitySet="SubjectInfoes" />
+      <End Role="ClassRoutine" EntitySet="ClassRoutines" />
+    </AssociationSet>
+    <AssociationSet Name="FK__tblClass__Sectio__145C0A3F" Association="Self.FK__tblClass__Sectio__145C0A3F">
+      <End Role="SECTION" EntitySet="SECTIONs" />
+      <End Role="tblClass" EntitySet="tblClasses" />
+    </AssociationSet>
+    <AssociationSet Name="FK__SubjectIn__Class__182C9B23" Association="Self.FK__SubjectIn__Class__182C9B23">
+      <End Role="tblClass" EntitySet="tblClasses" />
+      <End Role="SubjectInfo" EntitySet="SubjectInfoes" />
+    </AssociationSet>
+    <AssociationSet Name="FK__tblClass__Teacha__15502E78" Association="Self.FK__tblClass__Teacha__15502E78">
+      <End Role="Teacher" EntitySet="Teachers" />
+      <End Role="tblClass" EntitySet="tblClasses" />
+    </AssociationSet>
+    <EntitySet Name="Attendences" EntityType="SchoolManagementDBModel.Attendence" />
+    <EntitySet Name="Exams" EntityType="SchoolManagementDBModel.Exam" />
+    <EntitySet Name="MARKS" EntityType="SchoolManagementDBModel.MARK" />
+    <EntitySet Name="Students" EntityType="SchoolManagementDBModel.Student" />
+    <EntitySet Name="StudentInformations" EntityType="SchoolManagementDBModel.StudentInformation" />
+    <EntitySet Name="TeacherInformationviews" EntityType="SchoolManagementDBModel.TeacherInformationview" />
+    <AssociationSet Name="FK__Attendenc__Class__4F7CD00D" Association="SchoolManagementDBModel.FK__Attendenc__Class__4F7CD00D">
+      <End Role="tblClass" EntitySet="tblClasses" />
+      <End Role="Attendence" EntitySet="Attendences" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Attendenc__Stude__5070F446" Association="SchoolManagementDBModel.FK__Attendenc__Stude__5070F446">
+      <End Role="Student" EntitySet="Students" />
+      <End Role="Attendence" EntitySet="Attendences" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ATT_TOStudent" Association="SchoolManagementDBModel.FK_ATT_TOStudent">
+      <End Role="Attendence" EntitySet="Attendences" />
+      <End Role="Student" EntitySet="Students" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Exam__ClassID__47DBAE45" Association="SchoolManagementDBModel.FK__Exam__ClassID__47DBAE45">
+      <End Role="tblClass" EntitySet="tblClasses" />
+      <End Role="Exam" EntitySet="Exams" />
+    </AssociationSet>
+    <AssociationSet Name="FK__MARKS__ExamID__5441852A" Association="SchoolManagementDBModel.FK__MARKS__ExamID__5441852A">
+      <End Role="Exam" EntitySet="Exams" />
+      <End Role="MARK" EntitySet="MARKS" />
+    </AssociationSet>
+    <AssociationSet Name="FK__MARKS__ClassID__5535A963" Association="SchoolManagementDBModel.FK__MARKS__ClassID__5535A963">
+      <End Role="tblClass" EntitySet="tblClasses" />
+      <End Role="MARK" EntitySet="MARKS" />
+    </AssociationSet>
+    <AssociationSet Name="FK__MARKS__StudentID__571DF1D5" Association="SchoolManagementDBModel.FK__MARKS__StudentID__571DF1D5">
+      <End Role="Student" EntitySet="Students" />
+      <End Role="MARK" EntitySet="MARKS" />
+    </AssociationSet>
+    <AssociationSet Name="FK__MARKS__SubjectID__5629CD9C" Association="SchoolManagementDBModel.FK__MARKS__SubjectID__5629CD9C">
+      <End Role="SubjectInfo" EntitySet="SubjectInfoes" />
+      <End Role="MARK" EntitySet="MARKS" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Student__ParentI__44FF419A" Association="SchoolManagementDBModel.FK__Student__ParentI__44FF419A">
+      <End Role="Parent" EntitySet="Parents" />
+      <End Role="Student" EntitySet="Students" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Student__Section__440B1D61" Association="SchoolManagementDBModel.FK__Student__Section__440B1D61">
+      <End Role="SECTION" EntitySet="SECTIONs" />
+      <End Role="Student" EntitySet="Students" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Student__ClassID__4316F928" Association="SchoolManagementDBModel.FK__Student__ClassID__4316F928">
+      <End Role="tblClass" EntitySet="tblClasses" />
+      <End Role="Student" EntitySet="Students" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="Attendence">
+    <Key>
+      <PropertyRef Name="AttID" />
+    </Key>
+    <Property Name="AttID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="AttDate" Type="DateTime" Precision="0" />
+    <Property Name="IsPresent" Type="Boolean" />
+    <Property Name="ClassID" Type="Int32" />
+    <Property Name="StudentID" Type="Int32" />
+    <NavigationProperty Name="tblClass" Relationship="SchoolManagementDBModel.FK__Attendenc__Class__4F7CD00D" FromRole="Attendence" ToRole="tblClass" />
+    <NavigationProperty Name="Student" Relationship="SchoolManagementDBModel.FK__Attendenc__Stude__5070F446" FromRole="Attendence" ToRole="Student" />
+    <NavigationProperty Name="Students" Relationship="SchoolManagementDBModel.FK_ATT_TOStudent" FromRole="Attendence" ToRole="Student" />
+  </EntityType>
+  <EntityType Name="Exam">
+    <Key>
+      <PropertyRef Name="ExamID" />
+    </Key>
+    <Property Name="ExamID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ExamName" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="ExamType" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="ClassID" Type="Int32" />
+    <NavigationProperty Name="tblClass" Relationship="SchoolManagementDBModel.FK__Exam__ClassID__47DBAE45" FromRole="Exam" ToRole="tblClass" />
+    <NavigationProperty Name="MARKS" Relationship="SchoolManagementDBModel.FK__MARKS__ExamID__5441852A" FromRole="Exam" ToRole="MARK" />
+  </EntityType>
+  <EntityType Name="MARK">
+    <Key>
+      <PropertyRef Name="MarkID" />
+    </Key>
+    <Property Name="MarkID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ExamID" Type="Int32" />
+    <Property Name="ClassID" Type="Int32" />
+    <Property Name="SubjectID" Type="Int32" />
+    <Property Name="StudentID" Type="Int32" />
+    <NavigationProperty Name="Exam" Relationship="SchoolManagementDBModel.FK__MARKS__ExamID__5441852A" FromRole="MARK" ToRole="Exam" />
+    <NavigationProperty Name="tblClass" Relationship="SchoolManagementDBModel.FK__MARKS__ClassID__5535A963" FromRole="MARK" ToRole="tblClass" />
+    <NavigationProperty Name="Student" Relationship="SchoolManagementDBModel.FK__MARKS__StudentID__571DF1D5" FromRole="MARK" ToRole="Student" />
+    <NavigationProperty Name="SubjectInfo" Relationship="SchoolManagementDBModel.FK__MARKS__SubjectID__5629CD9C" FromRole="MARK" ToRole="SubjectInfo" />
+  </EntityType>
+  <EntityType Name="Student">
+    <Key>
+      <PropertyRef Name="StudentID" />
+    </Key>
+    <Property Name="StudentID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="StudentName" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="StudentRoll" Type="Int32" />
+    <Property Name="StudentBirthday" Type="DateTime" Precision="3" />
+    <Property Name="StudentAddress" Type="String" MaxLength="200" FixedLength="false" Unicode="false" />
+    <Property Name="StudentPhone" Type="String" MaxLength="15" FixedLength="false" Unicode="false" />
+    <Property Name="StudentEmail" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="StudentPassword" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="Gender" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="Religion" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="StudentImage" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="ClassID" Type="Int32" />
+    <Property Name="SectionID" Type="Int32" />
+    <Property Name="ParentID" Type="Int32" />
+    <Property Name="AttID" Type="Int32" />
+    <NavigationProperty Name="Attendences" Relationship="SchoolManagementDBModel.FK__Attendenc__Stude__5070F446" FromRole="Student" ToRole="Attendence" />
+    <NavigationProperty Name="Attendence" Relationship="SchoolManagementDBModel.FK_ATT_TOStudent" FromRole="Student" ToRole="Attendence" />
+    <NavigationProperty Name="MARKS" Relationship="SchoolManagementDBModel.FK__MARKS__StudentID__571DF1D5" FromRole="Student" ToRole="MARK" />
+    <NavigationProperty Name="Parent" Relationship="SchoolManagementDBModel.FK__Student__ParentI__44FF419A" FromRole="Student" ToRole="Parent" />
+    <NavigationProperty Name="SECTION" Relationship="SchoolManagementDBModel.FK__Student__Section__440B1D61" FromRole="Student" ToRole="SECTION" />
+    <NavigationProperty Name="tblClass" Relationship="SchoolManagementDBModel.FK__Student__ClassID__4316F928" FromRole="Student" ToRole="tblClass" />
+  </EntityType>
+  <EntityType Name="StudentInformation">
+    <Key>
+      <PropertyRef Name="StudentFirstName" />
+      <PropertyRef Name="StudentMiddleName" />
+      <PropertyRef Name="StudentLastName" />
+      <PropertyRef Name="FathersName" />
+      <PropertyRef Name="MothersName" />
+      <PropertyRef Name="DOB" />
+      <PropertyRef Name="Religion" />
+      <PropertyRef Name="Nationality" />
+    </Key>
+    <Property Name="ClassName" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="SectionName" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="DateOfAdmission" Type="DateTime" Precision="3" />
+    <Property Name="StudentFirstName" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="StudentMiddleName" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="StudentLastName" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="FathersName" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="MothersName" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="DOB" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="Religion" Type="String" Nullable="false" MaxLength="40" FixedLength="false" Unicode="false" />
+    <Property Name="Nationality" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="RelationWithGardians" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="TeacherInformationview">
+    <Key>
+      <PropertyRef Name="TeacherId" />
+    </Key>
+    <Property Name="TeacherId" Type="Int32" Nullable="false" />
+    <Property Name="TeacherFirstName" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="TeacherLastName" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="FatherName" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Gender" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="Nationality" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Religion" Type="String" MaxLength="40" FixedLength="false" Unicode="false" />
+    <Property Name="Depertment" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="TeachingExprienceYear" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="TraingName" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <Association Name="FK__Attendenc__Class__4F7CD00D">
+    <End Type="SchoolManagementDBModel.tblClass" Role="tblClass" Multiplicity="0..1" />
+    <End Type="SchoolManagementDBModel.Attendence" Role="Attendence" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tblClass">
+        <PropertyRef Name="ClassID" />
+      </Principal>
+      <Dependent Role="Attendence">
+        <PropertyRef Name="ClassID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Attendenc__Stude__5070F446">
+    <End Type="SchoolManagementDBModel.Student" Role="Student" Multiplicity="0..1" />
+    <End Type="SchoolManagementDBModel.Attendence" Role="Attendence" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Student">
+        <PropertyRef Name="StudentID" />
+      </Principal>
+      <Dependent Role="Attendence">
+        <PropertyRef Name="StudentID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ATT_TOStudent">
+    <End Type="SchoolManagementDBModel.Attendence" Role="Attendence" Multiplicity="0..1" />
+    <End Type="SchoolManagementDBModel.Student" Role="Student" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Attendence">
+        <PropertyRef Name="AttID" />
+      </Principal>
+      <Dependent Role="Student">
+        <PropertyRef Name="AttID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Exam__ClassID__47DBAE45">
+    <End Type="SchoolManagementDBModel.tblClass" Role="tblClass" Multiplicity="0..1" />
+    <End Type="SchoolManagementDBModel.Exam" Role="Exam" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tblClass">
+        <PropertyRef Name="ClassID" />
+      </Principal>
+      <Dependent Role="Exam">
+        <PropertyRef Name="ClassID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__MARKS__ExamID__5441852A">
+    <End Type="SchoolManagementDBModel.Exam" Role="Exam" Multiplicity="0..1" />
+    <End Type="SchoolManagementDBModel.MARK" Role="MARK" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Exam">
+        <PropertyRef Name="ExamID" />
+      </Principal>
+      <Dependent Role="MARK">
+        <PropertyRef Name="ExamID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__MARKS__ClassID__5535A963">
+    <End Type="SchoolManagementDBModel.tblClass" Role="tblClass" Multiplicity="0..1" />
+    <End Type="SchoolManagementDBModel.MARK" Role="MARK" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tblClass">
+        <PropertyRef Name="ClassID" />
+      </Principal>
+      <Dependent Role="MARK">
+        <PropertyRef Name="ClassID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__MARKS__StudentID__571DF1D5">
+    <End Type="SchoolManagementDBModel.Student" Role="Student" Multiplicity="0..1" />
+    <End Type="SchoolManagementDBModel.MARK" Role="MARK" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Student">
+        <PropertyRef Name="StudentID" />
+      </Principal>
+      <Dependent Role="MARK">
+        <PropertyRef Name="StudentID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__MARKS__SubjectID__5629CD9C">
+    <End Type="SchoolManagementDBModel.SubjectInfo" Role="SubjectInfo" Multiplicity="0..1" />
+    <End Type="SchoolManagementDBModel.MARK" Role="MARK" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="SubjectInfo">
+        <PropertyRef Name="SubjectID" />
+      </Principal>
+      <Dependent Role="MARK">
+        <PropertyRef Name="SubjectID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Student__ParentI__44FF419A">
+    <End Type="SchoolManagementDBModel.Parent" Role="Parent" Multiplicity="0..1" />
+    <End Type="SchoolManagementDBModel.Student" Role="Student" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Parent">
+        <PropertyRef Name="ParentID" />
+      </Principal>
+      <Dependent Role="Student">
+        <PropertyRef Name="ParentID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Student__Section__440B1D61">
+    <End Type="SchoolManagementDBModel.SECTION" Role="SECTION" Multiplicity="0..1" />
+    <End Type="SchoolManagementDBModel.Student" Role="Student" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="SECTION">
+        <PropertyRef Name="SectionID" />
+      </Principal>
+      <Dependent Role="Student">
+        <PropertyRef Name="SectionID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Student__ClassID__4316F928">
+    <End Type="SchoolManagementDBModel.tblClass" Role="tblClass" Multiplicity="0..1" />
+    <End Type="SchoolManagementDBModel.Student" Role="Student" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tblClass">
+        <PropertyRef Name="ClassID" />
+      </Principal>
+      <Dependent Role="Student">
+        <PropertyRef Name="ClassID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

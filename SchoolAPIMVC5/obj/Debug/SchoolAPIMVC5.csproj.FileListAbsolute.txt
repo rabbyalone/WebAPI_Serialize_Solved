@@ -1,0 +1,560 @@
+F:\Programming\Projectv2\SchoolAPIMVC5\SchoolAPIMVC5\bin\SchoolAPIMVC5.dll.config
+F:\Programming\Projectv2\SchoolAPIMVC5\SchoolAPIMVC5\bin\SchoolAPIMVC5.dll
+F:\Programming\Projectv2\SchoolAPIMVC5\SchoolAPIMVC5\bin\SchoolAPIMVC5.pdb
+F:\Programming\Projectv2\SchoolAPIMVC5\SchoolAPIMVC5\bin\Antlr3.Runtime.dll
+F:\Programming\Projectv2\SchoolAPIMVC5\SchoolAPIMVC5\bin\Elmah.dll
+F:\Programming\Projectv2\SchoolAPIMVC5\SchoolAPIMVC5\bin\Elmah.Mvc.dll
+F:\Programming\Projectv2\SchoolAPIMVC5\SchoolAPIMVC5\bin\EntityFramework.dll
+F:\Programming\Projectv2\SchoolAPIMVC5\SchoolAPIMVC5\bin\EntityFramework.SqlServer.dll
+F:\Programming\Projectv2\SchoolAPIMVC5\SchoolAPIMVC5\bin\Microsoft.AspNet.Identity.Core.dll
+F:\Programming\Projectv2\SchoolAPIMVC5\SchoolAPIMVC5\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+F:\Programming\Projectv2\SchoolAPIMVC5\SchoolAPIMVC5\bin\Microsoft.AspNet.Identity.Owin.dll
+F:\Programming\Projectv2\SchoolAPIMVC5\SchoolAPIMVC5\bin\Microsoft.Owin.dll
+F:\Programming\Projectv2\SchoolAPIMVC5\SchoolAPIMVC5\bin\Microsoft.Owin.Host.SystemWeb.dll
+F:\Programming\Projectv2\SchoolAPIMVC5\SchoolAPIMVC5\bin\Microsoft.Owin.Security.Cookies.dll
+F:\Programming\Projectv2\SchoolAPIMVC5\SchoolAPIMVC5\bin\Microsoft.Owin.Security.dll
+F:\Programming\Projectv2\SchoolAPIMVC5\SchoolAPIMVC5\bin\Microsoft.Owin.Security.Facebook.dll
+F:\Programming\Projectv2\SchoolAPIMVC5\SchoolAPIMVC5\bin\Microsoft.Owin.Security.Google.dll
+F:\Programming\Projectv2\SchoolAPIMVC5\SchoolAPIMVC5\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+F:\Programming\Projectv2\SchoolAPIMVC5\SchoolAPIMVC5\bin\Microsoft.Owin.Security.OAuth.dll
+F:\Programming\Projectv2\SchoolAPIMVC5\SchoolAPIMVC5\bin\Microsoft.Owin.Security.Twitter.dll
+F:\Programming\Projectv2\SchoolAPIMVC5\SchoolAPIMVC5\bin\Microsoft.Web.Infrastructure.dll
+F:\Programming\Projectv2\SchoolAPIMVC5\SchoolAPIMVC5\bin\Newtonsoft.Json.dll
+F:\Programming\Projectv2\SchoolAPIMVC5\SchoolAPIMVC5\bin\Owin.dll
+F:\Programming\Projectv2\SchoolAPIMVC5\SchoolAPIMVC5\bin\System.IdentityModel.Tokens.Jwt.dll
+F:\Programming\Projectv2\SchoolAPIMVC5\SchoolAPIMVC5\bin\System.Net.Http.Formatting.dll
+F:\Programming\Projectv2\SchoolAPIMVC5\SchoolAPIMVC5\bin\System.Web.Helpers.dll
+F:\Programming\Projectv2\SchoolAPIMVC5\SchoolAPIMVC5\bin\System.Web.Http.dll
+F:\Programming\Projectv2\SchoolAPIMVC5\SchoolAPIMVC5\bin\System.Web.Http.Owin.dll
+F:\Programming\Projectv2\SchoolAPIMVC5\SchoolAPIMVC5\bin\System.Web.Http.WebHost.dll
+F:\Programming\Projectv2\SchoolAPIMVC5\SchoolAPIMVC5\bin\System.Web.Mvc.dll
+F:\Programming\Projectv2\SchoolAPIMVC5\SchoolAPIMVC5\bin\System.Web.Optimization.dll
+F:\Programming\Projectv2\SchoolAPIMVC5\SchoolAPIMVC5\bin\System.Web.Razor.dll
+F:\Programming\Projectv2\SchoolAPIMVC5\SchoolAPIMVC5\bin\System.Web.WebPages.Deployment.dll
+F:\Programming\Projectv2\SchoolAPIMVC5\SchoolAPIMVC5\bin\System.Web.WebPages.dll
+F:\Programming\Projectv2\SchoolAPIMVC5\SchoolAPIMVC5\bin\System.Web.WebPages.Razor.dll
+F:\Programming\Projectv2\SchoolAPIMVC5\SchoolAPIMVC5\bin\Thinktecture.IdentityModel.dll
+F:\Programming\Projectv2\SchoolAPIMVC5\SchoolAPIMVC5\bin\WebGrease.dll
+F:\Programming\Projectv2\SchoolAPIMVC5\SchoolAPIMVC5\bin\System.IdentityModel.Tokens.Jwt.xml
+F:\Programming\Projectv2\SchoolAPIMVC5\SchoolAPIMVC5\bin\Newtonsoft.Json.xml
+F:\Programming\Projectv2\SchoolAPIMVC5\SchoolAPIMVC5\bin\System.Net.Http.Formatting.xml
+F:\Programming\Projectv2\SchoolAPIMVC5\SchoolAPIMVC5\bin\System.Web.Helpers.xml
+F:\Programming\Projectv2\SchoolAPIMVC5\SchoolAPIMVC5\bin\System.Web.Http.xml
+F:\Programming\Projectv2\SchoolAPIMVC5\SchoolAPIMVC5\bin\System.Web.Http.WebHost.xml
+F:\Programming\Projectv2\SchoolAPIMVC5\SchoolAPIMVC5\bin\System.Web.Mvc.xml
+F:\Programming\Projectv2\SchoolAPIMVC5\SchoolAPIMVC5\bin\System.Web.Optimization.xml
+F:\Programming\Projectv2\SchoolAPIMVC5\SchoolAPIMVC5\bin\System.Web.Razor.xml
+F:\Programming\Projectv2\SchoolAPIMVC5\SchoolAPIMVC5\bin\System.Web.WebPages.xml
+F:\Programming\Projectv2\SchoolAPIMVC5\SchoolAPIMVC5\bin\System.Web.WebPages.Deployment.xml
+F:\Programming\Projectv2\SchoolAPIMVC5\SchoolAPIMVC5\bin\System.Web.WebPages.Razor.xml
+F:\Programming\Projectv2\SchoolAPIMVC5\SchoolAPIMVC5\bin\Thinktecture.IdentityModel.pdb
+F:\Programming\Projectv2\SchoolAPIMVC5\SchoolAPIMVC5\bin\Thinktecture.IdentityModel.xml
+F:\Programming\Projectv2\SchoolAPIMVC5\SchoolAPIMVC5\bin\Antlr3.Runtime.pdb
+F:\Programming\Projectv2\SchoolAPIMVC5\SchoolAPIMVC5\bin\EntityFramework.xml
+F:\Programming\Projectv2\SchoolAPIMVC5\SchoolAPIMVC5\bin\EntityFramework.SqlServer.xml
+F:\Programming\Projectv2\SchoolAPIMVC5\SchoolAPIMVC5\bin\Microsoft.AspNet.Identity.Core.xml
+F:\Programming\Projectv2\SchoolAPIMVC5\SchoolAPIMVC5\bin\Microsoft.AspNet.Identity.Owin.xml
+F:\Programming\Projectv2\SchoolAPIMVC5\SchoolAPIMVC5\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+F:\Programming\Projectv2\SchoolAPIMVC5\SchoolAPIMVC5\bin\Microsoft.Owin.xml
+F:\Programming\Projectv2\SchoolAPIMVC5\SchoolAPIMVC5\bin\Microsoft.Owin.Host.SystemWeb.xml
+F:\Programming\Projectv2\SchoolAPIMVC5\SchoolAPIMVC5\bin\Microsoft.Owin.Security.xml
+F:\Programming\Projectv2\SchoolAPIMVC5\SchoolAPIMVC5\bin\Microsoft.Owin.Security.Facebook.xml
+F:\Programming\Projectv2\SchoolAPIMVC5\SchoolAPIMVC5\bin\Microsoft.Owin.Security.Cookies.xml
+F:\Programming\Projectv2\SchoolAPIMVC5\SchoolAPIMVC5\bin\Microsoft.Owin.Security.OAuth.xml
+F:\Programming\Projectv2\SchoolAPIMVC5\SchoolAPIMVC5\bin\Microsoft.Owin.Security.Google.xml
+F:\Programming\Projectv2\SchoolAPIMVC5\SchoolAPIMVC5\bin\Microsoft.Owin.Security.Twitter.xml
+F:\Programming\Projectv2\SchoolAPIMVC5\SchoolAPIMVC5\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+F:\Programming\Projectv2\SchoolAPIMVC5\SchoolAPIMVC5\bin\System.Web.Http.Owin.xml
+F:\Programming\Projectv2\SchoolAPIMVC5\SchoolAPIMVC5\obj\Debug\SchoolAPIMVC5.csprojResolveAssemblyReference.cache
+F:\Programming\Projectv2\SchoolAPIMVC5\SchoolAPIMVC5\obj\Debug\SchoolAPIMVC5.dll
+F:\Programming\Projectv2\SchoolAPIMVC5\SchoolAPIMVC5\obj\Debug\SchoolAPIMVC5.pdb
+C:\Users\mkuddin\Desktop\SchoolAPIMVC5\SchoolAPIMVC5\bin\SchoolAPIMVC5.dll.config
+C:\Users\mkuddin\Desktop\SchoolAPIMVC5\SchoolAPIMVC5\bin\SchoolAPIMVC5.dll
+C:\Users\mkuddin\Desktop\SchoolAPIMVC5\SchoolAPIMVC5\bin\SchoolAPIMVC5.pdb
+C:\Users\mkuddin\Desktop\SchoolAPIMVC5\SchoolAPIMVC5\bin\Antlr3.Runtime.dll
+C:\Users\mkuddin\Desktop\SchoolAPIMVC5\SchoolAPIMVC5\bin\Elmah.dll
+C:\Users\mkuddin\Desktop\SchoolAPIMVC5\SchoolAPIMVC5\bin\Elmah.Mvc.dll
+C:\Users\mkuddin\Desktop\SchoolAPIMVC5\SchoolAPIMVC5\bin\EntityFramework.dll
+C:\Users\mkuddin\Desktop\SchoolAPIMVC5\SchoolAPIMVC5\bin\EntityFramework.SqlServer.dll
+C:\Users\mkuddin\Desktop\SchoolAPIMVC5\SchoolAPIMVC5\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\mkuddin\Desktop\SchoolAPIMVC5\SchoolAPIMVC5\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\mkuddin\Desktop\SchoolAPIMVC5\SchoolAPIMVC5\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\mkuddin\Desktop\SchoolAPIMVC5\SchoolAPIMVC5\bin\Microsoft.Owin.dll
+C:\Users\mkuddin\Desktop\SchoolAPIMVC5\SchoolAPIMVC5\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\mkuddin\Desktop\SchoolAPIMVC5\SchoolAPIMVC5\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\mkuddin\Desktop\SchoolAPIMVC5\SchoolAPIMVC5\bin\Microsoft.Owin.Security.dll
+C:\Users\mkuddin\Desktop\SchoolAPIMVC5\SchoolAPIMVC5\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\mkuddin\Desktop\SchoolAPIMVC5\SchoolAPIMVC5\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\mkuddin\Desktop\SchoolAPIMVC5\SchoolAPIMVC5\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\mkuddin\Desktop\SchoolAPIMVC5\SchoolAPIMVC5\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\mkuddin\Desktop\SchoolAPIMVC5\SchoolAPIMVC5\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\mkuddin\Desktop\SchoolAPIMVC5\SchoolAPIMVC5\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\mkuddin\Desktop\SchoolAPIMVC5\SchoolAPIMVC5\bin\Newtonsoft.Json.dll
+C:\Users\mkuddin\Desktop\SchoolAPIMVC5\SchoolAPIMVC5\bin\Owin.dll
+C:\Users\mkuddin\Desktop\SchoolAPIMVC5\SchoolAPIMVC5\bin\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\mkuddin\Desktop\SchoolAPIMVC5\SchoolAPIMVC5\bin\System.Net.Http.Formatting.dll
+C:\Users\mkuddin\Desktop\SchoolAPIMVC5\SchoolAPIMVC5\bin\System.Web.Helpers.dll
+C:\Users\mkuddin\Desktop\SchoolAPIMVC5\SchoolAPIMVC5\bin\System.Web.Http.dll
+C:\Users\mkuddin\Desktop\SchoolAPIMVC5\SchoolAPIMVC5\bin\System.Web.Http.Owin.dll
+C:\Users\mkuddin\Desktop\SchoolAPIMVC5\SchoolAPIMVC5\bin\System.Web.Http.WebHost.dll
+C:\Users\mkuddin\Desktop\SchoolAPIMVC5\SchoolAPIMVC5\bin\System.Web.Mvc.dll
+C:\Users\mkuddin\Desktop\SchoolAPIMVC5\SchoolAPIMVC5\bin\System.Web.Optimization.dll
+C:\Users\mkuddin\Desktop\SchoolAPIMVC5\SchoolAPIMVC5\bin\System.Web.Razor.dll
+C:\Users\mkuddin\Desktop\SchoolAPIMVC5\SchoolAPIMVC5\bin\System.Web.WebPages.Deployment.dll
+C:\Users\mkuddin\Desktop\SchoolAPIMVC5\SchoolAPIMVC5\bin\System.Web.WebPages.dll
+C:\Users\mkuddin\Desktop\SchoolAPIMVC5\SchoolAPIMVC5\bin\System.Web.WebPages.Razor.dll
+C:\Users\mkuddin\Desktop\SchoolAPIMVC5\SchoolAPIMVC5\bin\Thinktecture.IdentityModel.dll
+C:\Users\mkuddin\Desktop\SchoolAPIMVC5\SchoolAPIMVC5\bin\WebGrease.dll
+C:\Users\mkuddin\Desktop\SchoolAPIMVC5\SchoolAPIMVC5\bin\System.IdentityModel.Tokens.Jwt.xml
+C:\Users\mkuddin\Desktop\SchoolAPIMVC5\SchoolAPIMVC5\bin\Newtonsoft.Json.xml
+C:\Users\mkuddin\Desktop\SchoolAPIMVC5\SchoolAPIMVC5\bin\System.Net.Http.Formatting.xml
+C:\Users\mkuddin\Desktop\SchoolAPIMVC5\SchoolAPIMVC5\bin\System.Web.Helpers.xml
+C:\Users\mkuddin\Desktop\SchoolAPIMVC5\SchoolAPIMVC5\bin\System.Web.Http.xml
+C:\Users\mkuddin\Desktop\SchoolAPIMVC5\SchoolAPIMVC5\bin\System.Web.Http.WebHost.xml
+C:\Users\mkuddin\Desktop\SchoolAPIMVC5\SchoolAPIMVC5\bin\System.Web.Mvc.xml
+C:\Users\mkuddin\Desktop\SchoolAPIMVC5\SchoolAPIMVC5\bin\System.Web.Optimization.xml
+C:\Users\mkuddin\Desktop\SchoolAPIMVC5\SchoolAPIMVC5\bin\System.Web.Razor.xml
+C:\Users\mkuddin\Desktop\SchoolAPIMVC5\SchoolAPIMVC5\bin\System.Web.WebPages.xml
+C:\Users\mkuddin\Desktop\SchoolAPIMVC5\SchoolAPIMVC5\bin\System.Web.WebPages.Deployment.xml
+C:\Users\mkuddin\Desktop\SchoolAPIMVC5\SchoolAPIMVC5\bin\System.Web.WebPages.Razor.xml
+C:\Users\mkuddin\Desktop\SchoolAPIMVC5\SchoolAPIMVC5\bin\Thinktecture.IdentityModel.pdb
+C:\Users\mkuddin\Desktop\SchoolAPIMVC5\SchoolAPIMVC5\bin\Thinktecture.IdentityModel.xml
+C:\Users\mkuddin\Desktop\SchoolAPIMVC5\SchoolAPIMVC5\bin\Antlr3.Runtime.pdb
+C:\Users\mkuddin\Desktop\SchoolAPIMVC5\SchoolAPIMVC5\bin\EntityFramework.xml
+C:\Users\mkuddin\Desktop\SchoolAPIMVC5\SchoolAPIMVC5\bin\EntityFramework.SqlServer.xml
+C:\Users\mkuddin\Desktop\SchoolAPIMVC5\SchoolAPIMVC5\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\mkuddin\Desktop\SchoolAPIMVC5\SchoolAPIMVC5\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\mkuddin\Desktop\SchoolAPIMVC5\SchoolAPIMVC5\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\mkuddin\Desktop\SchoolAPIMVC5\SchoolAPIMVC5\bin\Microsoft.Owin.xml
+C:\Users\mkuddin\Desktop\SchoolAPIMVC5\SchoolAPIMVC5\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\mkuddin\Desktop\SchoolAPIMVC5\SchoolAPIMVC5\bin\Microsoft.Owin.Security.xml
+C:\Users\mkuddin\Desktop\SchoolAPIMVC5\SchoolAPIMVC5\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\mkuddin\Desktop\SchoolAPIMVC5\SchoolAPIMVC5\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\mkuddin\Desktop\SchoolAPIMVC5\SchoolAPIMVC5\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\mkuddin\Desktop\SchoolAPIMVC5\SchoolAPIMVC5\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\mkuddin\Desktop\SchoolAPIMVC5\SchoolAPIMVC5\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\mkuddin\Desktop\SchoolAPIMVC5\SchoolAPIMVC5\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\mkuddin\Desktop\SchoolAPIMVC5\SchoolAPIMVC5\bin\System.Web.Http.Owin.xml
+C:\Users\mkuddin\Desktop\SchoolAPIMVC5\SchoolAPIMVC5\obj\Debug\SchoolAPIMVC5.csprojResolveAssemblyReference.cache
+C:\Users\mkuddin\Desktop\SchoolAPIMVC5\SchoolAPIMVC5\obj\Debug\SchoolAPIMVC5.dll
+C:\Users\mkuddin\Desktop\SchoolAPIMVC5\SchoolAPIMVC5\obj\Debug\SchoolAPIMVC5.pdb
+D:\SchoolManagement\SchoolAPIMVC5\SchoolAPIMVC5\bin\SchoolAPIMVC5.dll.config
+D:\SchoolManagement\SchoolAPIMVC5\SchoolAPIMVC5\bin\SchoolAPIMVC5.dll
+D:\SchoolManagement\SchoolAPIMVC5\SchoolAPIMVC5\bin\SchoolAPIMVC5.pdb
+D:\SchoolManagement\SchoolAPIMVC5\SchoolAPIMVC5\bin\Antlr3.Runtime.dll
+D:\SchoolManagement\SchoolAPIMVC5\SchoolAPIMVC5\bin\Elmah.dll
+D:\SchoolManagement\SchoolAPIMVC5\SchoolAPIMVC5\bin\Elmah.Mvc.dll
+D:\SchoolManagement\SchoolAPIMVC5\SchoolAPIMVC5\bin\EntityFramework.dll
+D:\SchoolManagement\SchoolAPIMVC5\SchoolAPIMVC5\bin\EntityFramework.SqlServer.dll
+D:\SchoolManagement\SchoolAPIMVC5\SchoolAPIMVC5\bin\Microsoft.AspNet.Identity.Core.dll
+D:\SchoolManagement\SchoolAPIMVC5\SchoolAPIMVC5\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\SchoolManagement\SchoolAPIMVC5\SchoolAPIMVC5\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\SchoolManagement\SchoolAPIMVC5\SchoolAPIMVC5\bin\Microsoft.Owin.dll
+D:\SchoolManagement\SchoolAPIMVC5\SchoolAPIMVC5\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\SchoolManagement\SchoolAPIMVC5\SchoolAPIMVC5\bin\Microsoft.Owin.Security.Cookies.dll
+D:\SchoolManagement\SchoolAPIMVC5\SchoolAPIMVC5\bin\Microsoft.Owin.Security.dll
+D:\SchoolManagement\SchoolAPIMVC5\SchoolAPIMVC5\bin\Microsoft.Owin.Security.Facebook.dll
+D:\SchoolManagement\SchoolAPIMVC5\SchoolAPIMVC5\bin\Microsoft.Owin.Security.Google.dll
+D:\SchoolManagement\SchoolAPIMVC5\SchoolAPIMVC5\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\SchoolManagement\SchoolAPIMVC5\SchoolAPIMVC5\bin\Microsoft.Owin.Security.OAuth.dll
+D:\SchoolManagement\SchoolAPIMVC5\SchoolAPIMVC5\bin\Microsoft.Owin.Security.Twitter.dll
+D:\SchoolManagement\SchoolAPIMVC5\SchoolAPIMVC5\bin\Microsoft.Web.Infrastructure.dll
+D:\SchoolManagement\SchoolAPIMVC5\SchoolAPIMVC5\bin\Newtonsoft.Json.dll
+D:\SchoolManagement\SchoolAPIMVC5\SchoolAPIMVC5\bin\Owin.dll
+D:\SchoolManagement\SchoolAPIMVC5\SchoolAPIMVC5\bin\System.IdentityModel.Tokens.Jwt.dll
+D:\SchoolManagement\SchoolAPIMVC5\SchoolAPIMVC5\bin\System.Net.Http.Formatting.dll
+D:\SchoolManagement\SchoolAPIMVC5\SchoolAPIMVC5\bin\System.Web.Helpers.dll
+D:\SchoolManagement\SchoolAPIMVC5\SchoolAPIMVC5\bin\System.Web.Http.dll
+D:\SchoolManagement\SchoolAPIMVC5\SchoolAPIMVC5\bin\System.Web.Http.Owin.dll
+D:\SchoolManagement\SchoolAPIMVC5\SchoolAPIMVC5\bin\System.Web.Http.WebHost.dll
+D:\SchoolManagement\SchoolAPIMVC5\SchoolAPIMVC5\bin\System.Web.Mvc.dll
+D:\SchoolManagement\SchoolAPIMVC5\SchoolAPIMVC5\bin\System.Web.Optimization.dll
+D:\SchoolManagement\SchoolAPIMVC5\SchoolAPIMVC5\bin\System.Web.Razor.dll
+D:\SchoolManagement\SchoolAPIMVC5\SchoolAPIMVC5\bin\System.Web.WebPages.Deployment.dll
+D:\SchoolManagement\SchoolAPIMVC5\SchoolAPIMVC5\bin\System.Web.WebPages.dll
+D:\SchoolManagement\SchoolAPIMVC5\SchoolAPIMVC5\bin\System.Web.WebPages.Razor.dll
+D:\SchoolManagement\SchoolAPIMVC5\SchoolAPIMVC5\bin\Thinktecture.IdentityModel.dll
+D:\SchoolManagement\SchoolAPIMVC5\SchoolAPIMVC5\bin\WebGrease.dll
+D:\SchoolManagement\SchoolAPIMVC5\SchoolAPIMVC5\bin\System.IdentityModel.Tokens.Jwt.xml
+D:\SchoolManagement\SchoolAPIMVC5\SchoolAPIMVC5\bin\Newtonsoft.Json.xml
+D:\SchoolManagement\SchoolAPIMVC5\SchoolAPIMVC5\bin\System.Net.Http.Formatting.xml
+D:\SchoolManagement\SchoolAPIMVC5\SchoolAPIMVC5\bin\System.Web.Helpers.xml
+D:\SchoolManagement\SchoolAPIMVC5\SchoolAPIMVC5\bin\System.Web.Http.xml
+D:\SchoolManagement\SchoolAPIMVC5\SchoolAPIMVC5\bin\System.Web.Http.WebHost.xml
+D:\SchoolManagement\SchoolAPIMVC5\SchoolAPIMVC5\bin\System.Web.Mvc.xml
+D:\SchoolManagement\SchoolAPIMVC5\SchoolAPIMVC5\bin\System.Web.Optimization.xml
+D:\SchoolManagement\SchoolAPIMVC5\SchoolAPIMVC5\bin\System.Web.Razor.xml
+D:\SchoolManagement\SchoolAPIMVC5\SchoolAPIMVC5\bin\System.Web.WebPages.xml
+D:\SchoolManagement\SchoolAPIMVC5\SchoolAPIMVC5\bin\System.Web.WebPages.Deployment.xml
+D:\SchoolManagement\SchoolAPIMVC5\SchoolAPIMVC5\bin\System.Web.WebPages.Razor.xml
+D:\SchoolManagement\SchoolAPIMVC5\SchoolAPIMVC5\bin\Thinktecture.IdentityModel.pdb
+D:\SchoolManagement\SchoolAPIMVC5\SchoolAPIMVC5\bin\Thinktecture.IdentityModel.xml
+D:\SchoolManagement\SchoolAPIMVC5\SchoolAPIMVC5\bin\Antlr3.Runtime.pdb
+D:\SchoolManagement\SchoolAPIMVC5\SchoolAPIMVC5\bin\EntityFramework.xml
+D:\SchoolManagement\SchoolAPIMVC5\SchoolAPIMVC5\bin\EntityFramework.SqlServer.xml
+D:\SchoolManagement\SchoolAPIMVC5\SchoolAPIMVC5\bin\Microsoft.AspNet.Identity.Core.xml
+D:\SchoolManagement\SchoolAPIMVC5\SchoolAPIMVC5\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\SchoolManagement\SchoolAPIMVC5\SchoolAPIMVC5\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\SchoolManagement\SchoolAPIMVC5\SchoolAPIMVC5\bin\Microsoft.Owin.xml
+D:\SchoolManagement\SchoolAPIMVC5\SchoolAPIMVC5\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\SchoolManagement\SchoolAPIMVC5\SchoolAPIMVC5\bin\Microsoft.Owin.Security.xml
+D:\SchoolManagement\SchoolAPIMVC5\SchoolAPIMVC5\bin\Microsoft.Owin.Security.Facebook.xml
+D:\SchoolManagement\SchoolAPIMVC5\SchoolAPIMVC5\bin\Microsoft.Owin.Security.Cookies.xml
+D:\SchoolManagement\SchoolAPIMVC5\SchoolAPIMVC5\bin\Microsoft.Owin.Security.OAuth.xml
+D:\SchoolManagement\SchoolAPIMVC5\SchoolAPIMVC5\bin\Microsoft.Owin.Security.Google.xml
+D:\SchoolManagement\SchoolAPIMVC5\SchoolAPIMVC5\bin\Microsoft.Owin.Security.Twitter.xml
+D:\SchoolManagement\SchoolAPIMVC5\SchoolAPIMVC5\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\SchoolManagement\SchoolAPIMVC5\SchoolAPIMVC5\bin\System.Web.Http.Owin.xml
+D:\SchoolManagement\SchoolAPIMVC5\SchoolAPIMVC5\obj\Debug\SchoolAPIMVC5.csprojResolveAssemblyReference.cache
+D:\SchoolManagement\SchoolAPIMVC5\SchoolAPIMVC5\obj\Debug\SchoolAPIMVC5.dll
+D:\SchoolManagement\SchoolAPIMVC5\SchoolAPIMVC5\obj\Debug\SchoolAPIMVC5.pdb
+F:\Arif\GroupProject\SchoolManagement\SchoolAPIMVC5\SchoolAPIMVC5\bin\SchoolAPIMVC5.dll.config
+F:\Arif\GroupProject\SchoolManagement\SchoolAPIMVC5\SchoolAPIMVC5\bin\SchoolAPIMVC5.dll
+F:\Arif\GroupProject\SchoolManagement\SchoolAPIMVC5\SchoolAPIMVC5\bin\SchoolAPIMVC5.pdb
+F:\Arif\GroupProject\SchoolManagement\SchoolAPIMVC5\SchoolAPIMVC5\bin\Antlr3.Runtime.dll
+F:\Arif\GroupProject\SchoolManagement\SchoolAPIMVC5\SchoolAPIMVC5\bin\Elmah.dll
+F:\Arif\GroupProject\SchoolManagement\SchoolAPIMVC5\SchoolAPIMVC5\bin\Elmah.Mvc.dll
+F:\Arif\GroupProject\SchoolManagement\SchoolAPIMVC5\SchoolAPIMVC5\bin\EntityFramework.dll
+F:\Arif\GroupProject\SchoolManagement\SchoolAPIMVC5\SchoolAPIMVC5\bin\EntityFramework.SqlServer.dll
+F:\Arif\GroupProject\SchoolManagement\SchoolAPIMVC5\SchoolAPIMVC5\bin\Microsoft.AspNet.Identity.Core.dll
+F:\Arif\GroupProject\SchoolManagement\SchoolAPIMVC5\SchoolAPIMVC5\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+F:\Arif\GroupProject\SchoolManagement\SchoolAPIMVC5\SchoolAPIMVC5\bin\Microsoft.AspNet.Identity.Owin.dll
+F:\Arif\GroupProject\SchoolManagement\SchoolAPIMVC5\SchoolAPIMVC5\bin\Microsoft.Owin.dll
+F:\Arif\GroupProject\SchoolManagement\SchoolAPIMVC5\SchoolAPIMVC5\bin\Microsoft.Owin.Host.SystemWeb.dll
+F:\Arif\GroupProject\SchoolManagement\SchoolAPIMVC5\SchoolAPIMVC5\bin\Microsoft.Owin.Security.Cookies.dll
+F:\Arif\GroupProject\SchoolManagement\SchoolAPIMVC5\SchoolAPIMVC5\bin\Microsoft.Owin.Security.dll
+F:\Arif\GroupProject\SchoolManagement\SchoolAPIMVC5\SchoolAPIMVC5\bin\Microsoft.Owin.Security.Facebook.dll
+F:\Arif\GroupProject\SchoolManagement\SchoolAPIMVC5\SchoolAPIMVC5\bin\Microsoft.Owin.Security.Google.dll
+F:\Arif\GroupProject\SchoolManagement\SchoolAPIMVC5\SchoolAPIMVC5\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+F:\Arif\GroupProject\SchoolManagement\SchoolAPIMVC5\SchoolAPIMVC5\bin\Microsoft.Owin.Security.OAuth.dll
+F:\Arif\GroupProject\SchoolManagement\SchoolAPIMVC5\SchoolAPIMVC5\bin\Microsoft.Owin.Security.Twitter.dll
+F:\Arif\GroupProject\SchoolManagement\SchoolAPIMVC5\SchoolAPIMVC5\bin\Microsoft.Web.Infrastructure.dll
+F:\Arif\GroupProject\SchoolManagement\SchoolAPIMVC5\SchoolAPIMVC5\bin\Newtonsoft.Json.dll
+F:\Arif\GroupProject\SchoolManagement\SchoolAPIMVC5\SchoolAPIMVC5\bin\Owin.dll
+F:\Arif\GroupProject\SchoolManagement\SchoolAPIMVC5\SchoolAPIMVC5\bin\System.IdentityModel.Tokens.Jwt.dll
+F:\Arif\GroupProject\SchoolManagement\SchoolAPIMVC5\SchoolAPIMVC5\bin\System.Net.Http.Formatting.dll
+F:\Arif\GroupProject\SchoolManagement\SchoolAPIMVC5\SchoolAPIMVC5\bin\System.Web.Helpers.dll
+F:\Arif\GroupProject\SchoolManagement\SchoolAPIMVC5\SchoolAPIMVC5\bin\System.Web.Http.dll
+F:\Arif\GroupProject\SchoolManagement\SchoolAPIMVC5\SchoolAPIMVC5\bin\System.Web.Http.Owin.dll
+F:\Arif\GroupProject\SchoolManagement\SchoolAPIMVC5\SchoolAPIMVC5\bin\System.Web.Http.WebHost.dll
+F:\Arif\GroupProject\SchoolManagement\SchoolAPIMVC5\SchoolAPIMVC5\bin\System.Web.Mvc.dll
+F:\Arif\GroupProject\SchoolManagement\SchoolAPIMVC5\SchoolAPIMVC5\bin\System.Web.Optimization.dll
+F:\Arif\GroupProject\SchoolManagement\SchoolAPIMVC5\SchoolAPIMVC5\bin\System.Web.Razor.dll
+F:\Arif\GroupProject\SchoolManagement\SchoolAPIMVC5\SchoolAPIMVC5\bin\System.Web.WebPages.Deployment.dll
+F:\Arif\GroupProject\SchoolManagement\SchoolAPIMVC5\SchoolAPIMVC5\bin\System.Web.WebPages.dll
+F:\Arif\GroupProject\SchoolManagement\SchoolAPIMVC5\SchoolAPIMVC5\bin\System.Web.WebPages.Razor.dll
+F:\Arif\GroupProject\SchoolManagement\SchoolAPIMVC5\SchoolAPIMVC5\bin\Thinktecture.IdentityModel.dll
+F:\Arif\GroupProject\SchoolManagement\SchoolAPIMVC5\SchoolAPIMVC5\bin\WebGrease.dll
+F:\Arif\GroupProject\SchoolManagement\SchoolAPIMVC5\SchoolAPIMVC5\bin\System.IdentityModel.Tokens.Jwt.xml
+F:\Arif\GroupProject\SchoolManagement\SchoolAPIMVC5\SchoolAPIMVC5\bin\Newtonsoft.Json.xml
+F:\Arif\GroupProject\SchoolManagement\SchoolAPIMVC5\SchoolAPIMVC5\bin\System.Net.Http.Formatting.xml
+F:\Arif\GroupProject\SchoolManagement\SchoolAPIMVC5\SchoolAPIMVC5\bin\System.Web.Helpers.xml
+F:\Arif\GroupProject\SchoolManagement\SchoolAPIMVC5\SchoolAPIMVC5\bin\System.Web.Http.xml
+F:\Arif\GroupProject\SchoolManagement\SchoolAPIMVC5\SchoolAPIMVC5\bin\System.Web.Http.WebHost.xml
+F:\Arif\GroupProject\SchoolManagement\SchoolAPIMVC5\SchoolAPIMVC5\bin\System.Web.Mvc.xml
+F:\Arif\GroupProject\SchoolManagement\SchoolAPIMVC5\SchoolAPIMVC5\bin\System.Web.Optimization.xml
+F:\Arif\GroupProject\SchoolManagement\SchoolAPIMVC5\SchoolAPIMVC5\bin\System.Web.Razor.xml
+F:\Arif\GroupProject\SchoolManagement\SchoolAPIMVC5\SchoolAPIMVC5\bin\System.Web.WebPages.xml
+F:\Arif\GroupProject\SchoolManagement\SchoolAPIMVC5\SchoolAPIMVC5\bin\System.Web.WebPages.Deployment.xml
+F:\Arif\GroupProject\SchoolManagement\SchoolAPIMVC5\SchoolAPIMVC5\bin\System.Web.WebPages.Razor.xml
+F:\Arif\GroupProject\SchoolManagement\SchoolAPIMVC5\SchoolAPIMVC5\bin\Thinktecture.IdentityModel.pdb
+F:\Arif\GroupProject\SchoolManagement\SchoolAPIMVC5\SchoolAPIMVC5\bin\Thinktecture.IdentityModel.xml
+F:\Arif\GroupProject\SchoolManagement\SchoolAPIMVC5\SchoolAPIMVC5\bin\Antlr3.Runtime.pdb
+F:\Arif\GroupProject\SchoolManagement\SchoolAPIMVC5\SchoolAPIMVC5\bin\EntityFramework.xml
+F:\Arif\GroupProject\SchoolManagement\SchoolAPIMVC5\SchoolAPIMVC5\bin\EntityFramework.SqlServer.xml
+F:\Arif\GroupProject\SchoolManagement\SchoolAPIMVC5\SchoolAPIMVC5\bin\Microsoft.AspNet.Identity.Core.xml
+F:\Arif\GroupProject\SchoolManagement\SchoolAPIMVC5\SchoolAPIMVC5\bin\Microsoft.AspNet.Identity.Owin.xml
+F:\Arif\GroupProject\SchoolManagement\SchoolAPIMVC5\SchoolAPIMVC5\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+F:\Arif\GroupProject\SchoolManagement\SchoolAPIMVC5\SchoolAPIMVC5\bin\Microsoft.Owin.xml
+F:\Arif\GroupProject\SchoolManagement\SchoolAPIMVC5\SchoolAPIMVC5\bin\Microsoft.Owin.Host.SystemWeb.xml
+F:\Arif\GroupProject\SchoolManagement\SchoolAPIMVC5\SchoolAPIMVC5\bin\Microsoft.Owin.Security.xml
+F:\Arif\GroupProject\SchoolManagement\SchoolAPIMVC5\SchoolAPIMVC5\bin\Microsoft.Owin.Security.Facebook.xml
+F:\Arif\GroupProject\SchoolManagement\SchoolAPIMVC5\SchoolAPIMVC5\bin\Microsoft.Owin.Security.Cookies.xml
+F:\Arif\GroupProject\SchoolManagement\SchoolAPIMVC5\SchoolAPIMVC5\bin\Microsoft.Owin.Security.OAuth.xml
+F:\Arif\GroupProject\SchoolManagement\SchoolAPIMVC5\SchoolAPIMVC5\bin\Microsoft.Owin.Security.Google.xml
+F:\Arif\GroupProject\SchoolManagement\SchoolAPIMVC5\SchoolAPIMVC5\bin\Microsoft.Owin.Security.Twitter.xml
+F:\Arif\GroupProject\SchoolManagement\SchoolAPIMVC5\SchoolAPIMVC5\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+F:\Arif\GroupProject\SchoolManagement\SchoolAPIMVC5\SchoolAPIMVC5\bin\System.Web.Http.Owin.xml
+F:\Arif\GroupProject\SchoolManagement\SchoolAPIMVC5\SchoolAPIMVC5\obj\Debug\SchoolAPIMVC5.csprojResolveAssemblyReference.cache
+F:\Arif\GroupProject\SchoolManagement\SchoolAPIMVC5\SchoolAPIMVC5\obj\Debug\SchoolAPIMVC5.dll
+F:\Arif\GroupProject\SchoolManagement\SchoolAPIMVC5\SchoolAPIMVC5\obj\Debug\SchoolAPIMVC5.pdb
+C:\Users\mkuddin\Desktop\SchoolManagement\Projectv1\SchoolManagement\SchoolAPIMVC5\SchoolAPIMVC5\bin\SchoolAPIMVC5.dll.config
+C:\Users\mkuddin\Desktop\SchoolManagement\Projectv1\SchoolManagement\SchoolAPIMVC5\SchoolAPIMVC5\bin\SchoolAPIMVC5.dll
+C:\Users\mkuddin\Desktop\SchoolManagement\Projectv1\SchoolManagement\SchoolAPIMVC5\SchoolAPIMVC5\bin\SchoolAPIMVC5.pdb
+C:\Users\mkuddin\Desktop\SchoolManagement\Projectv1\SchoolManagement\SchoolAPIMVC5\SchoolAPIMVC5\bin\Antlr3.Runtime.dll
+C:\Users\mkuddin\Desktop\SchoolManagement\Projectv1\SchoolManagement\SchoolAPIMVC5\SchoolAPIMVC5\bin\Elmah.dll
+C:\Users\mkuddin\Desktop\SchoolManagement\Projectv1\SchoolManagement\SchoolAPIMVC5\SchoolAPIMVC5\bin\Elmah.Mvc.dll
+C:\Users\mkuddin\Desktop\SchoolManagement\Projectv1\SchoolManagement\SchoolAPIMVC5\SchoolAPIMVC5\bin\EntityFramework.dll
+C:\Users\mkuddin\Desktop\SchoolManagement\Projectv1\SchoolManagement\SchoolAPIMVC5\SchoolAPIMVC5\bin\EntityFramework.SqlServer.dll
+C:\Users\mkuddin\Desktop\SchoolManagement\Projectv1\SchoolManagement\SchoolAPIMVC5\SchoolAPIMVC5\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\mkuddin\Desktop\SchoolManagement\Projectv1\SchoolManagement\SchoolAPIMVC5\SchoolAPIMVC5\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\mkuddin\Desktop\SchoolManagement\Projectv1\SchoolManagement\SchoolAPIMVC5\SchoolAPIMVC5\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\mkuddin\Desktop\SchoolManagement\Projectv1\SchoolManagement\SchoolAPIMVC5\SchoolAPIMVC5\bin\Microsoft.Owin.dll
+C:\Users\mkuddin\Desktop\SchoolManagement\Projectv1\SchoolManagement\SchoolAPIMVC5\SchoolAPIMVC5\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\mkuddin\Desktop\SchoolManagement\Projectv1\SchoolManagement\SchoolAPIMVC5\SchoolAPIMVC5\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\mkuddin\Desktop\SchoolManagement\Projectv1\SchoolManagement\SchoolAPIMVC5\SchoolAPIMVC5\bin\Microsoft.Owin.Security.dll
+C:\Users\mkuddin\Desktop\SchoolManagement\Projectv1\SchoolManagement\SchoolAPIMVC5\SchoolAPIMVC5\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\mkuddin\Desktop\SchoolManagement\Projectv1\SchoolManagement\SchoolAPIMVC5\SchoolAPIMVC5\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\mkuddin\Desktop\SchoolManagement\Projectv1\SchoolManagement\SchoolAPIMVC5\SchoolAPIMVC5\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\mkuddin\Desktop\SchoolManagement\Projectv1\SchoolManagement\SchoolAPIMVC5\SchoolAPIMVC5\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\mkuddin\Desktop\SchoolManagement\Projectv1\SchoolManagement\SchoolAPIMVC5\SchoolAPIMVC5\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\mkuddin\Desktop\SchoolManagement\Projectv1\SchoolManagement\SchoolAPIMVC5\SchoolAPIMVC5\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\mkuddin\Desktop\SchoolManagement\Projectv1\SchoolManagement\SchoolAPIMVC5\SchoolAPIMVC5\bin\Newtonsoft.Json.dll
+C:\Users\mkuddin\Desktop\SchoolManagement\Projectv1\SchoolManagement\SchoolAPIMVC5\SchoolAPIMVC5\bin\Owin.dll
+C:\Users\mkuddin\Desktop\SchoolManagement\Projectv1\SchoolManagement\SchoolAPIMVC5\SchoolAPIMVC5\bin\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\mkuddin\Desktop\SchoolManagement\Projectv1\SchoolManagement\SchoolAPIMVC5\SchoolAPIMVC5\bin\System.Net.Http.Formatting.dll
+C:\Users\mkuddin\Desktop\SchoolManagement\Projectv1\SchoolManagement\SchoolAPIMVC5\SchoolAPIMVC5\bin\System.Web.Helpers.dll
+C:\Users\mkuddin\Desktop\SchoolManagement\Projectv1\SchoolManagement\SchoolAPIMVC5\SchoolAPIMVC5\bin\System.Web.Http.dll
+C:\Users\mkuddin\Desktop\SchoolManagement\Projectv1\SchoolManagement\SchoolAPIMVC5\SchoolAPIMVC5\bin\System.Web.Http.Owin.dll
+C:\Users\mkuddin\Desktop\SchoolManagement\Projectv1\SchoolManagement\SchoolAPIMVC5\SchoolAPIMVC5\bin\System.Web.Http.WebHost.dll
+C:\Users\mkuddin\Desktop\SchoolManagement\Projectv1\SchoolManagement\SchoolAPIMVC5\SchoolAPIMVC5\bin\System.Web.Mvc.dll
+C:\Users\mkuddin\Desktop\SchoolManagement\Projectv1\SchoolManagement\SchoolAPIMVC5\SchoolAPIMVC5\bin\System.Web.Optimization.dll
+C:\Users\mkuddin\Desktop\SchoolManagement\Projectv1\SchoolManagement\SchoolAPIMVC5\SchoolAPIMVC5\bin\System.Web.Razor.dll
+C:\Users\mkuddin\Desktop\SchoolManagement\Projectv1\SchoolManagement\SchoolAPIMVC5\SchoolAPIMVC5\bin\System.Web.WebPages.Deployment.dll
+C:\Users\mkuddin\Desktop\SchoolManagement\Projectv1\SchoolManagement\SchoolAPIMVC5\SchoolAPIMVC5\bin\System.Web.WebPages.dll
+C:\Users\mkuddin\Desktop\SchoolManagement\Projectv1\SchoolManagement\SchoolAPIMVC5\SchoolAPIMVC5\bin\System.Web.WebPages.Razor.dll
+C:\Users\mkuddin\Desktop\SchoolManagement\Projectv1\SchoolManagement\SchoolAPIMVC5\SchoolAPIMVC5\bin\Thinktecture.IdentityModel.dll
+C:\Users\mkuddin\Desktop\SchoolManagement\Projectv1\SchoolManagement\SchoolAPIMVC5\SchoolAPIMVC5\bin\WebGrease.dll
+C:\Users\mkuddin\Desktop\SchoolManagement\Projectv1\SchoolManagement\SchoolAPIMVC5\SchoolAPIMVC5\bin\System.IdentityModel.Tokens.Jwt.xml
+C:\Users\mkuddin\Desktop\SchoolManagement\Projectv1\SchoolManagement\SchoolAPIMVC5\SchoolAPIMVC5\bin\Newtonsoft.Json.xml
+C:\Users\mkuddin\Desktop\SchoolManagement\Projectv1\SchoolManagement\SchoolAPIMVC5\SchoolAPIMVC5\bin\System.Net.Http.Formatting.xml
+C:\Users\mkuddin\Desktop\SchoolManagement\Projectv1\SchoolManagement\SchoolAPIMVC5\SchoolAPIMVC5\bin\System.Web.Helpers.xml
+C:\Users\mkuddin\Desktop\SchoolManagement\Projectv1\SchoolManagement\SchoolAPIMVC5\SchoolAPIMVC5\bin\System.Web.Http.xml
+C:\Users\mkuddin\Desktop\SchoolManagement\Projectv1\SchoolManagement\SchoolAPIMVC5\SchoolAPIMVC5\bin\System.Web.Http.WebHost.xml
+C:\Users\mkuddin\Desktop\SchoolManagement\Projectv1\SchoolManagement\SchoolAPIMVC5\SchoolAPIMVC5\bin\System.Web.Mvc.xml
+C:\Users\mkuddin\Desktop\SchoolManagement\Projectv1\SchoolManagement\SchoolAPIMVC5\SchoolAPIMVC5\bin\System.Web.Optimization.xml
+C:\Users\mkuddin\Desktop\SchoolManagement\Projectv1\SchoolManagement\SchoolAPIMVC5\SchoolAPIMVC5\bin\System.Web.Razor.xml
+C:\Users\mkuddin\Desktop\SchoolManagement\Projectv1\SchoolManagement\SchoolAPIMVC5\SchoolAPIMVC5\bin\System.Web.WebPages.xml
+C:\Users\mkuddin\Desktop\SchoolManagement\Projectv1\SchoolManagement\SchoolAPIMVC5\SchoolAPIMVC5\bin\System.Web.WebPages.Deployment.xml
+C:\Users\mkuddin\Desktop\SchoolManagement\Projectv1\SchoolManagement\SchoolAPIMVC5\SchoolAPIMVC5\bin\System.Web.WebPages.Razor.xml
+C:\Users\mkuddin\Desktop\SchoolManagement\Projectv1\SchoolManagement\SchoolAPIMVC5\SchoolAPIMVC5\bin\Thinktecture.IdentityModel.pdb
+C:\Users\mkuddin\Desktop\SchoolManagement\Projectv1\SchoolManagement\SchoolAPIMVC5\SchoolAPIMVC5\bin\Thinktecture.IdentityModel.xml
+C:\Users\mkuddin\Desktop\SchoolManagement\Projectv1\SchoolManagement\SchoolAPIMVC5\SchoolAPIMVC5\bin\Antlr3.Runtime.pdb
+C:\Users\mkuddin\Desktop\SchoolManagement\Projectv1\SchoolManagement\SchoolAPIMVC5\SchoolAPIMVC5\bin\EntityFramework.xml
+C:\Users\mkuddin\Desktop\SchoolManagement\Projectv1\SchoolManagement\SchoolAPIMVC5\SchoolAPIMVC5\bin\EntityFramework.SqlServer.xml
+C:\Users\mkuddin\Desktop\SchoolManagement\Projectv1\SchoolManagement\SchoolAPIMVC5\SchoolAPIMVC5\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\mkuddin\Desktop\SchoolManagement\Projectv1\SchoolManagement\SchoolAPIMVC5\SchoolAPIMVC5\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\mkuddin\Desktop\SchoolManagement\Projectv1\SchoolManagement\SchoolAPIMVC5\SchoolAPIMVC5\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\mkuddin\Desktop\SchoolManagement\Projectv1\SchoolManagement\SchoolAPIMVC5\SchoolAPIMVC5\bin\Microsoft.Owin.xml
+C:\Users\mkuddin\Desktop\SchoolManagement\Projectv1\SchoolManagement\SchoolAPIMVC5\SchoolAPIMVC5\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\mkuddin\Desktop\SchoolManagement\Projectv1\SchoolManagement\SchoolAPIMVC5\SchoolAPIMVC5\bin\Microsoft.Owin.Security.xml
+C:\Users\mkuddin\Desktop\SchoolManagement\Projectv1\SchoolManagement\SchoolAPIMVC5\SchoolAPIMVC5\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\mkuddin\Desktop\SchoolManagement\Projectv1\SchoolManagement\SchoolAPIMVC5\SchoolAPIMVC5\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\mkuddin\Desktop\SchoolManagement\Projectv1\SchoolManagement\SchoolAPIMVC5\SchoolAPIMVC5\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\mkuddin\Desktop\SchoolManagement\Projectv1\SchoolManagement\SchoolAPIMVC5\SchoolAPIMVC5\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\mkuddin\Desktop\SchoolManagement\Projectv1\SchoolManagement\SchoolAPIMVC5\SchoolAPIMVC5\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\mkuddin\Desktop\SchoolManagement\Projectv1\SchoolManagement\SchoolAPIMVC5\SchoolAPIMVC5\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\mkuddin\Desktop\SchoolManagement\Projectv1\SchoolManagement\SchoolAPIMVC5\SchoolAPIMVC5\bin\System.Web.Http.Owin.xml
+C:\Users\mkuddin\Desktop\SchoolManagement\Projectv1\SchoolManagement\SchoolAPIMVC5\SchoolAPIMVC5\obj\Debug\SchoolAPIMVC5.csprojResolveAssemblyReference.cache
+C:\Users\mkuddin\Desktop\SchoolManagement\Projectv1\SchoolManagement\SchoolAPIMVC5\SchoolAPIMVC5\obj\Debug\SchoolAPIMVC5.dll
+C:\Users\mkuddin\Desktop\SchoolManagement\Projectv1\SchoolManagement\SchoolAPIMVC5\SchoolAPIMVC5\obj\Debug\SchoolAPIMVC5.pdb
+\\KAMALUDDIN\SchoolManagement\Projectv1\SchoolManagement\SchoolAPIMVC5\SchoolAPIMVC5\bin\SchoolAPIMVC5.dll.config
+\\KAMALUDDIN\SchoolManagement\Projectv1\SchoolManagement\SchoolAPIMVC5\SchoolAPIMVC5\bin\SchoolAPIMVC5.dll
+\\KAMALUDDIN\SchoolManagement\Projectv1\SchoolManagement\SchoolAPIMVC5\SchoolAPIMVC5\bin\SchoolAPIMVC5.pdb
+\\KAMALUDDIN\SchoolManagement\Projectv1\SchoolManagement\SchoolAPIMVC5\SchoolAPIMVC5\bin\Antlr3.Runtime.dll
+\\KAMALUDDIN\SchoolManagement\Projectv1\SchoolManagement\SchoolAPIMVC5\SchoolAPIMVC5\bin\Elmah.dll
+\\KAMALUDDIN\SchoolManagement\Projectv1\SchoolManagement\SchoolAPIMVC5\SchoolAPIMVC5\bin\Elmah.Mvc.dll
+\\KAMALUDDIN\SchoolManagement\Projectv1\SchoolManagement\SchoolAPIMVC5\SchoolAPIMVC5\bin\EntityFramework.dll
+\\KAMALUDDIN\SchoolManagement\Projectv1\SchoolManagement\SchoolAPIMVC5\SchoolAPIMVC5\bin\EntityFramework.SqlServer.dll
+\\KAMALUDDIN\SchoolManagement\Projectv1\SchoolManagement\SchoolAPIMVC5\SchoolAPIMVC5\bin\Microsoft.AspNet.Identity.Core.dll
+\\KAMALUDDIN\SchoolManagement\Projectv1\SchoolManagement\SchoolAPIMVC5\SchoolAPIMVC5\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+\\KAMALUDDIN\SchoolManagement\Projectv1\SchoolManagement\SchoolAPIMVC5\SchoolAPIMVC5\bin\Microsoft.AspNet.Identity.Owin.dll
+\\KAMALUDDIN\SchoolManagement\Projectv1\SchoolManagement\SchoolAPIMVC5\SchoolAPIMVC5\bin\Microsoft.Owin.dll
+\\KAMALUDDIN\SchoolManagement\Projectv1\SchoolManagement\SchoolAPIMVC5\SchoolAPIMVC5\bin\Microsoft.Owin.Host.SystemWeb.dll
+\\KAMALUDDIN\SchoolManagement\Projectv1\SchoolManagement\SchoolAPIMVC5\SchoolAPIMVC5\bin\Microsoft.Owin.Security.Cookies.dll
+\\KAMALUDDIN\SchoolManagement\Projectv1\SchoolManagement\SchoolAPIMVC5\SchoolAPIMVC5\bin\Microsoft.Owin.Security.dll
+\\KAMALUDDIN\SchoolManagement\Projectv1\SchoolManagement\SchoolAPIMVC5\SchoolAPIMVC5\bin\Microsoft.Owin.Security.Facebook.dll
+\\KAMALUDDIN\SchoolManagement\Projectv1\SchoolManagement\SchoolAPIMVC5\SchoolAPIMVC5\bin\Microsoft.Owin.Security.Google.dll
+\\KAMALUDDIN\SchoolManagement\Projectv1\SchoolManagement\SchoolAPIMVC5\SchoolAPIMVC5\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+\\KAMALUDDIN\SchoolManagement\Projectv1\SchoolManagement\SchoolAPIMVC5\SchoolAPIMVC5\bin\Microsoft.Owin.Security.OAuth.dll
+\\KAMALUDDIN\SchoolManagement\Projectv1\SchoolManagement\SchoolAPIMVC5\SchoolAPIMVC5\bin\Microsoft.Owin.Security.Twitter.dll
+\\KAMALUDDIN\SchoolManagement\Projectv1\SchoolManagement\SchoolAPIMVC5\SchoolAPIMVC5\bin\Microsoft.Web.Infrastructure.dll
+\\KAMALUDDIN\SchoolManagement\Projectv1\SchoolManagement\SchoolAPIMVC5\SchoolAPIMVC5\bin\Newtonsoft.Json.dll
+\\KAMALUDDIN\SchoolManagement\Projectv1\SchoolManagement\SchoolAPIMVC5\SchoolAPIMVC5\bin\Owin.dll
+\\KAMALUDDIN\SchoolManagement\Projectv1\SchoolManagement\SchoolAPIMVC5\SchoolAPIMVC5\bin\System.IdentityModel.Tokens.Jwt.dll
+\\KAMALUDDIN\SchoolManagement\Projectv1\SchoolManagement\SchoolAPIMVC5\SchoolAPIMVC5\bin\System.Net.Http.Formatting.dll
+\\KAMALUDDIN\SchoolManagement\Projectv1\SchoolManagement\SchoolAPIMVC5\SchoolAPIMVC5\bin\System.Web.Helpers.dll
+\\KAMALUDDIN\SchoolManagement\Projectv1\SchoolManagement\SchoolAPIMVC5\SchoolAPIMVC5\bin\System.Web.Http.dll
+\\KAMALUDDIN\SchoolManagement\Projectv1\SchoolManagement\SchoolAPIMVC5\SchoolAPIMVC5\bin\System.Web.Http.Owin.dll
+\\KAMALUDDIN\SchoolManagement\Projectv1\SchoolManagement\SchoolAPIMVC5\SchoolAPIMVC5\bin\System.Web.Http.WebHost.dll
+\\KAMALUDDIN\SchoolManagement\Projectv1\SchoolManagement\SchoolAPIMVC5\SchoolAPIMVC5\bin\System.Web.Mvc.dll
+\\KAMALUDDIN\SchoolManagement\Projectv1\SchoolManagement\SchoolAPIMVC5\SchoolAPIMVC5\bin\System.Web.Optimization.dll
+\\KAMALUDDIN\SchoolManagement\Projectv1\SchoolManagement\SchoolAPIMVC5\SchoolAPIMVC5\bin\System.Web.Razor.dll
+\\KAMALUDDIN\SchoolManagement\Projectv1\SchoolManagement\SchoolAPIMVC5\SchoolAPIMVC5\bin\System.Web.WebPages.Deployment.dll
+\\KAMALUDDIN\SchoolManagement\Projectv1\SchoolManagement\SchoolAPIMVC5\SchoolAPIMVC5\bin\System.Web.WebPages.dll
+\\KAMALUDDIN\SchoolManagement\Projectv1\SchoolManagement\SchoolAPIMVC5\SchoolAPIMVC5\bin\System.Web.WebPages.Razor.dll
+\\KAMALUDDIN\SchoolManagement\Projectv1\SchoolManagement\SchoolAPIMVC5\SchoolAPIMVC5\bin\Thinktecture.IdentityModel.dll
+\\KAMALUDDIN\SchoolManagement\Projectv1\SchoolManagement\SchoolAPIMVC5\SchoolAPIMVC5\bin\WebGrease.dll
+\\KAMALUDDIN\SchoolManagement\Projectv1\SchoolManagement\SchoolAPIMVC5\SchoolAPIMVC5\bin\System.IdentityModel.Tokens.Jwt.xml
+\\KAMALUDDIN\SchoolManagement\Projectv1\SchoolManagement\SchoolAPIMVC5\SchoolAPIMVC5\bin\Newtonsoft.Json.xml
+\\KAMALUDDIN\SchoolManagement\Projectv1\SchoolManagement\SchoolAPIMVC5\SchoolAPIMVC5\bin\System.Net.Http.Formatting.xml
+\\KAMALUDDIN\SchoolManagement\Projectv1\SchoolManagement\SchoolAPIMVC5\SchoolAPIMVC5\bin\System.Web.Helpers.xml
+\\KAMALUDDIN\SchoolManagement\Projectv1\SchoolManagement\SchoolAPIMVC5\SchoolAPIMVC5\bin\System.Web.Http.xml
+\\KAMALUDDIN\SchoolManagement\Projectv1\SchoolManagement\SchoolAPIMVC5\SchoolAPIMVC5\bin\System.Web.Http.WebHost.xml
+\\KAMALUDDIN\SchoolManagement\Projectv1\SchoolManagement\SchoolAPIMVC5\SchoolAPIMVC5\bin\System.Web.Mvc.xml
+\\KAMALUDDIN\SchoolManagement\Projectv1\SchoolManagement\SchoolAPIMVC5\SchoolAPIMVC5\bin\System.Web.Optimization.xml
+\\KAMALUDDIN\SchoolManagement\Projectv1\SchoolManagement\SchoolAPIMVC5\SchoolAPIMVC5\bin\System.Web.Razor.xml
+\\KAMALUDDIN\SchoolManagement\Projectv1\SchoolManagement\SchoolAPIMVC5\SchoolAPIMVC5\bin\System.Web.WebPages.xml
+\\KAMALUDDIN\SchoolManagement\Projectv1\SchoolManagement\SchoolAPIMVC5\SchoolAPIMVC5\bin\System.Web.WebPages.Deployment.xml
+\\KAMALUDDIN\SchoolManagement\Projectv1\SchoolManagement\SchoolAPIMVC5\SchoolAPIMVC5\bin\System.Web.WebPages.Razor.xml
+\\KAMALUDDIN\SchoolManagement\Projectv1\SchoolManagement\SchoolAPIMVC5\SchoolAPIMVC5\bin\Thinktecture.IdentityModel.pdb
+\\KAMALUDDIN\SchoolManagement\Projectv1\SchoolManagement\SchoolAPIMVC5\SchoolAPIMVC5\bin\Thinktecture.IdentityModel.xml
+\\KAMALUDDIN\SchoolManagement\Projectv1\SchoolManagement\SchoolAPIMVC5\SchoolAPIMVC5\bin\Antlr3.Runtime.pdb
+\\KAMALUDDIN\SchoolManagement\Projectv1\SchoolManagement\SchoolAPIMVC5\SchoolAPIMVC5\bin\EntityFramework.xml
+\\KAMALUDDIN\SchoolManagement\Projectv1\SchoolManagement\SchoolAPIMVC5\SchoolAPIMVC5\bin\EntityFramework.SqlServer.xml
+\\KAMALUDDIN\SchoolManagement\Projectv1\SchoolManagement\SchoolAPIMVC5\SchoolAPIMVC5\bin\Microsoft.AspNet.Identity.Core.xml
+\\KAMALUDDIN\SchoolManagement\Projectv1\SchoolManagement\SchoolAPIMVC5\SchoolAPIMVC5\bin\Microsoft.AspNet.Identity.Owin.xml
+\\KAMALUDDIN\SchoolManagement\Projectv1\SchoolManagement\SchoolAPIMVC5\SchoolAPIMVC5\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+\\KAMALUDDIN\SchoolManagement\Projectv1\SchoolManagement\SchoolAPIMVC5\SchoolAPIMVC5\bin\Microsoft.Owin.xml
+\\KAMALUDDIN\SchoolManagement\Projectv1\SchoolManagement\SchoolAPIMVC5\SchoolAPIMVC5\bin\Microsoft.Owin.Host.SystemWeb.xml
+\\KAMALUDDIN\SchoolManagement\Projectv1\SchoolManagement\SchoolAPIMVC5\SchoolAPIMVC5\bin\Microsoft.Owin.Security.xml
+\\KAMALUDDIN\SchoolManagement\Projectv1\SchoolManagement\SchoolAPIMVC5\SchoolAPIMVC5\bin\Microsoft.Owin.Security.Facebook.xml
+\\KAMALUDDIN\SchoolManagement\Projectv1\SchoolManagement\SchoolAPIMVC5\SchoolAPIMVC5\bin\Microsoft.Owin.Security.Cookies.xml
+\\KAMALUDDIN\SchoolManagement\Projectv1\SchoolManagement\SchoolAPIMVC5\SchoolAPIMVC5\bin\Microsoft.Owin.Security.OAuth.xml
+\\KAMALUDDIN\SchoolManagement\Projectv1\SchoolManagement\SchoolAPIMVC5\SchoolAPIMVC5\bin\Microsoft.Owin.Security.Google.xml
+\\KAMALUDDIN\SchoolManagement\Projectv1\SchoolManagement\SchoolAPIMVC5\SchoolAPIMVC5\bin\Microsoft.Owin.Security.Twitter.xml
+\\KAMALUDDIN\SchoolManagement\Projectv1\SchoolManagement\SchoolAPIMVC5\SchoolAPIMVC5\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+\\KAMALUDDIN\SchoolManagement\Projectv1\SchoolManagement\SchoolAPIMVC5\SchoolAPIMVC5\bin\System.Web.Http.Owin.xml
+\\KAMALUDDIN\SchoolManagement\Projectv1\SchoolManagement\SchoolAPIMVC5\SchoolAPIMVC5\obj\Debug\SchoolAPIMVC5.csprojResolveAssemblyReference.cache
+\\KAMALUDDIN\SchoolManagement\Projectv1\SchoolManagement\SchoolAPIMVC5\SchoolAPIMVC5\obj\Debug\SchoolAPIMVC5.dll
+\\KAMALUDDIN\SchoolManagement\Projectv1\SchoolManagement\SchoolAPIMVC5\SchoolAPIMVC5\obj\Debug\SchoolAPIMVC5.pdb
+C:\Users\rabby\Desktop\Project\FinalVersion\SchoolAPIMVC5\SchoolAPIMVC5\bin\SchoolAPIMVC5.dll.config
+C:\Users\rabby\Desktop\Project\FinalVersion\SchoolAPIMVC5\SchoolAPIMVC5\bin\SchoolAPIMVC5.dll
+C:\Users\rabby\Desktop\Project\FinalVersion\SchoolAPIMVC5\SchoolAPIMVC5\bin\SchoolAPIMVC5.pdb
+C:\Users\rabby\Desktop\Project\FinalVersion\SchoolAPIMVC5\SchoolAPIMVC5\bin\Antlr3.Runtime.dll
+C:\Users\rabby\Desktop\Project\FinalVersion\SchoolAPIMVC5\SchoolAPIMVC5\bin\Elmah.dll
+C:\Users\rabby\Desktop\Project\FinalVersion\SchoolAPIMVC5\SchoolAPIMVC5\bin\Elmah.Mvc.dll
+C:\Users\rabby\Desktop\Project\FinalVersion\SchoolAPIMVC5\SchoolAPIMVC5\bin\EntityFramework.dll
+C:\Users\rabby\Desktop\Project\FinalVersion\SchoolAPIMVC5\SchoolAPIMVC5\bin\EntityFramework.SqlServer.dll
+C:\Users\rabby\Desktop\Project\FinalVersion\SchoolAPIMVC5\SchoolAPIMVC5\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\rabby\Desktop\Project\FinalVersion\SchoolAPIMVC5\SchoolAPIMVC5\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\rabby\Desktop\Project\FinalVersion\SchoolAPIMVC5\SchoolAPIMVC5\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\rabby\Desktop\Project\FinalVersion\SchoolAPIMVC5\SchoolAPIMVC5\bin\Microsoft.Owin.dll
+C:\Users\rabby\Desktop\Project\FinalVersion\SchoolAPIMVC5\SchoolAPIMVC5\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\rabby\Desktop\Project\FinalVersion\SchoolAPIMVC5\SchoolAPIMVC5\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\rabby\Desktop\Project\FinalVersion\SchoolAPIMVC5\SchoolAPIMVC5\bin\Microsoft.Owin.Security.dll
+C:\Users\rabby\Desktop\Project\FinalVersion\SchoolAPIMVC5\SchoolAPIMVC5\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\rabby\Desktop\Project\FinalVersion\SchoolAPIMVC5\SchoolAPIMVC5\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\rabby\Desktop\Project\FinalVersion\SchoolAPIMVC5\SchoolAPIMVC5\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\rabby\Desktop\Project\FinalVersion\SchoolAPIMVC5\SchoolAPIMVC5\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\rabby\Desktop\Project\FinalVersion\SchoolAPIMVC5\SchoolAPIMVC5\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\rabby\Desktop\Project\FinalVersion\SchoolAPIMVC5\SchoolAPIMVC5\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\rabby\Desktop\Project\FinalVersion\SchoolAPIMVC5\SchoolAPIMVC5\bin\Newtonsoft.Json.dll
+C:\Users\rabby\Desktop\Project\FinalVersion\SchoolAPIMVC5\SchoolAPIMVC5\bin\Owin.dll
+C:\Users\rabby\Desktop\Project\FinalVersion\SchoolAPIMVC5\SchoolAPIMVC5\bin\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\rabby\Desktop\Project\FinalVersion\SchoolAPIMVC5\SchoolAPIMVC5\bin\System.Net.Http.Formatting.dll
+C:\Users\rabby\Desktop\Project\FinalVersion\SchoolAPIMVC5\SchoolAPIMVC5\bin\System.Web.Helpers.dll
+C:\Users\rabby\Desktop\Project\FinalVersion\SchoolAPIMVC5\SchoolAPIMVC5\bin\System.Web.Http.dll
+C:\Users\rabby\Desktop\Project\FinalVersion\SchoolAPIMVC5\SchoolAPIMVC5\bin\System.Web.Http.Owin.dll
+C:\Users\rabby\Desktop\Project\FinalVersion\SchoolAPIMVC5\SchoolAPIMVC5\bin\System.Web.Http.WebHost.dll
+C:\Users\rabby\Desktop\Project\FinalVersion\SchoolAPIMVC5\SchoolAPIMVC5\bin\System.Web.Mvc.dll
+C:\Users\rabby\Desktop\Project\FinalVersion\SchoolAPIMVC5\SchoolAPIMVC5\bin\System.Web.Optimization.dll
+C:\Users\rabby\Desktop\Project\FinalVersion\SchoolAPIMVC5\SchoolAPIMVC5\bin\System.Web.Razor.dll
+C:\Users\rabby\Desktop\Project\FinalVersion\SchoolAPIMVC5\SchoolAPIMVC5\bin\System.Web.WebPages.Deployment.dll
+C:\Users\rabby\Desktop\Project\FinalVersion\SchoolAPIMVC5\SchoolAPIMVC5\bin\System.Web.WebPages.dll
+C:\Users\rabby\Desktop\Project\FinalVersion\SchoolAPIMVC5\SchoolAPIMVC5\bin\System.Web.WebPages.Razor.dll
+C:\Users\rabby\Desktop\Project\FinalVersion\SchoolAPIMVC5\SchoolAPIMVC5\bin\Thinktecture.IdentityModel.dll
+C:\Users\rabby\Desktop\Project\FinalVersion\SchoolAPIMVC5\SchoolAPIMVC5\bin\WebGrease.dll
+C:\Users\rabby\Desktop\Project\FinalVersion\SchoolAPIMVC5\SchoolAPIMVC5\bin\System.IdentityModel.Tokens.Jwt.xml
+C:\Users\rabby\Desktop\Project\FinalVersion\SchoolAPIMVC5\SchoolAPIMVC5\bin\Newtonsoft.Json.xml
+C:\Users\rabby\Desktop\Project\FinalVersion\SchoolAPIMVC5\SchoolAPIMVC5\bin\System.Net.Http.Formatting.xml
+C:\Users\rabby\Desktop\Project\FinalVersion\SchoolAPIMVC5\SchoolAPIMVC5\bin\System.Web.Helpers.xml
+C:\Users\rabby\Desktop\Project\FinalVersion\SchoolAPIMVC5\SchoolAPIMVC5\bin\System.Web.Http.xml
+C:\Users\rabby\Desktop\Project\FinalVersion\SchoolAPIMVC5\SchoolAPIMVC5\bin\System.Web.Http.WebHost.xml
+C:\Users\rabby\Desktop\Project\FinalVersion\SchoolAPIMVC5\SchoolAPIMVC5\bin\System.Web.Mvc.xml
+C:\Users\rabby\Desktop\Project\FinalVersion\SchoolAPIMVC5\SchoolAPIMVC5\bin\System.Web.Optimization.xml
+C:\Users\rabby\Desktop\Project\FinalVersion\SchoolAPIMVC5\SchoolAPIMVC5\bin\System.Web.Razor.xml
+C:\Users\rabby\Desktop\Project\FinalVersion\SchoolAPIMVC5\SchoolAPIMVC5\bin\System.Web.WebPages.xml
+C:\Users\rabby\Desktop\Project\FinalVersion\SchoolAPIMVC5\SchoolAPIMVC5\bin\System.Web.WebPages.Deployment.xml
+C:\Users\rabby\Desktop\Project\FinalVersion\SchoolAPIMVC5\SchoolAPIMVC5\bin\System.Web.WebPages.Razor.xml
+C:\Users\rabby\Desktop\Project\FinalVersion\SchoolAPIMVC5\SchoolAPIMVC5\bin\Thinktecture.IdentityModel.pdb
+C:\Users\rabby\Desktop\Project\FinalVersion\SchoolAPIMVC5\SchoolAPIMVC5\bin\Thinktecture.IdentityModel.xml
+C:\Users\rabby\Desktop\Project\FinalVersion\SchoolAPIMVC5\SchoolAPIMVC5\bin\Antlr3.Runtime.pdb
+C:\Users\rabby\Desktop\Project\FinalVersion\SchoolAPIMVC5\SchoolAPIMVC5\bin\EntityFramework.xml
+C:\Users\rabby\Desktop\Project\FinalVersion\SchoolAPIMVC5\SchoolAPIMVC5\bin\EntityFramework.SqlServer.xml
+C:\Users\rabby\Desktop\Project\FinalVersion\SchoolAPIMVC5\SchoolAPIMVC5\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\rabby\Desktop\Project\FinalVersion\SchoolAPIMVC5\SchoolAPIMVC5\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\rabby\Desktop\Project\FinalVersion\SchoolAPIMVC5\SchoolAPIMVC5\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\rabby\Desktop\Project\FinalVersion\SchoolAPIMVC5\SchoolAPIMVC5\bin\Microsoft.Owin.xml
+C:\Users\rabby\Desktop\Project\FinalVersion\SchoolAPIMVC5\SchoolAPIMVC5\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\rabby\Desktop\Project\FinalVersion\SchoolAPIMVC5\SchoolAPIMVC5\bin\Microsoft.Owin.Security.xml
+C:\Users\rabby\Desktop\Project\FinalVersion\SchoolAPIMVC5\SchoolAPIMVC5\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\rabby\Desktop\Project\FinalVersion\SchoolAPIMVC5\SchoolAPIMVC5\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\rabby\Desktop\Project\FinalVersion\SchoolAPIMVC5\SchoolAPIMVC5\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\rabby\Desktop\Project\FinalVersion\SchoolAPIMVC5\SchoolAPIMVC5\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\rabby\Desktop\Project\FinalVersion\SchoolAPIMVC5\SchoolAPIMVC5\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\rabby\Desktop\Project\FinalVersion\SchoolAPIMVC5\SchoolAPIMVC5\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\rabby\Desktop\Project\FinalVersion\SchoolAPIMVC5\SchoolAPIMVC5\bin\System.Web.Http.Owin.xml
+C:\Users\rabby\Desktop\Project\FinalVersion\SchoolAPIMVC5\SchoolAPIMVC5\obj\Debug\SchoolAPIMVC5.csprojResolveAssemblyReference.cache
+C:\Users\rabby\Desktop\Project\FinalVersion\SchoolAPIMVC5\SchoolAPIMVC5\obj\Debug\SchoolAPIMVC5.dll
+C:\Users\rabby\Desktop\Project\FinalVersion\SchoolAPIMVC5\SchoolAPIMVC5\obj\Debug\SchoolAPIMVC5.pdb
+F:\Desktop Folders 16-01-16\FasterJsonAPI\SchoolAPIMVC5\SchoolAPIMVC5\bin\SchoolAPIMVC5.dll.config
+F:\Desktop Folders 16-01-16\FasterJsonAPI\SchoolAPIMVC5\SchoolAPIMVC5\bin\SchoolAPIMVC5.dll
+F:\Desktop Folders 16-01-16\FasterJsonAPI\SchoolAPIMVC5\SchoolAPIMVC5\bin\SchoolAPIMVC5.pdb
+F:\Desktop Folders 16-01-16\FasterJsonAPI\SchoolAPIMVC5\SchoolAPIMVC5\bin\Antlr3.Runtime.dll
+F:\Desktop Folders 16-01-16\FasterJsonAPI\SchoolAPIMVC5\SchoolAPIMVC5\bin\Elmah.dll
+F:\Desktop Folders 16-01-16\FasterJsonAPI\SchoolAPIMVC5\SchoolAPIMVC5\bin\Elmah.Mvc.dll
+F:\Desktop Folders 16-01-16\FasterJsonAPI\SchoolAPIMVC5\SchoolAPIMVC5\bin\EntityFramework.dll
+F:\Desktop Folders 16-01-16\FasterJsonAPI\SchoolAPIMVC5\SchoolAPIMVC5\bin\EntityFramework.SqlServer.dll
+F:\Desktop Folders 16-01-16\FasterJsonAPI\SchoolAPIMVC5\SchoolAPIMVC5\bin\Microsoft.AspNet.Identity.Core.dll
+F:\Desktop Folders 16-01-16\FasterJsonAPI\SchoolAPIMVC5\SchoolAPIMVC5\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+F:\Desktop Folders 16-01-16\FasterJsonAPI\SchoolAPIMVC5\SchoolAPIMVC5\bin\Microsoft.AspNet.Identity.Owin.dll
+F:\Desktop Folders 16-01-16\FasterJsonAPI\SchoolAPIMVC5\SchoolAPIMVC5\bin\Microsoft.Owin.dll
+F:\Desktop Folders 16-01-16\FasterJsonAPI\SchoolAPIMVC5\SchoolAPIMVC5\bin\Microsoft.Owin.Host.SystemWeb.dll
+F:\Desktop Folders 16-01-16\FasterJsonAPI\SchoolAPIMVC5\SchoolAPIMVC5\bin\Microsoft.Owin.Security.Cookies.dll
+F:\Desktop Folders 16-01-16\FasterJsonAPI\SchoolAPIMVC5\SchoolAPIMVC5\bin\Microsoft.Owin.Security.dll
+F:\Desktop Folders 16-01-16\FasterJsonAPI\SchoolAPIMVC5\SchoolAPIMVC5\bin\Microsoft.Owin.Security.Facebook.dll
+F:\Desktop Folders 16-01-16\FasterJsonAPI\SchoolAPIMVC5\SchoolAPIMVC5\bin\Microsoft.Owin.Security.Google.dll
+F:\Desktop Folders 16-01-16\FasterJsonAPI\SchoolAPIMVC5\SchoolAPIMVC5\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+F:\Desktop Folders 16-01-16\FasterJsonAPI\SchoolAPIMVC5\SchoolAPIMVC5\bin\Microsoft.Owin.Security.OAuth.dll
+F:\Desktop Folders 16-01-16\FasterJsonAPI\SchoolAPIMVC5\SchoolAPIMVC5\bin\Microsoft.Owin.Security.Twitter.dll
+F:\Desktop Folders 16-01-16\FasterJsonAPI\SchoolAPIMVC5\SchoolAPIMVC5\bin\Microsoft.Web.Infrastructure.dll
+F:\Desktop Folders 16-01-16\FasterJsonAPI\SchoolAPIMVC5\SchoolAPIMVC5\bin\Newtonsoft.Json.dll
+F:\Desktop Folders 16-01-16\FasterJsonAPI\SchoolAPIMVC5\SchoolAPIMVC5\bin\Owin.dll
+F:\Desktop Folders 16-01-16\FasterJsonAPI\SchoolAPIMVC5\SchoolAPIMVC5\bin\System.IdentityModel.Tokens.Jwt.dll
+F:\Desktop Folders 16-01-16\FasterJsonAPI\SchoolAPIMVC5\SchoolAPIMVC5\bin\System.Net.Http.Formatting.dll
+F:\Desktop Folders 16-01-16\FasterJsonAPI\SchoolAPIMVC5\SchoolAPIMVC5\bin\System.Web.Helpers.dll
+F:\Desktop Folders 16-01-16\FasterJsonAPI\SchoolAPIMVC5\SchoolAPIMVC5\bin\System.Web.Http.dll
+F:\Desktop Folders 16-01-16\FasterJsonAPI\SchoolAPIMVC5\SchoolAPIMVC5\bin\System.Web.Http.Owin.dll
+F:\Desktop Folders 16-01-16\FasterJsonAPI\SchoolAPIMVC5\SchoolAPIMVC5\bin\System.Web.Http.WebHost.dll
+F:\Desktop Folders 16-01-16\FasterJsonAPI\SchoolAPIMVC5\SchoolAPIMVC5\bin\System.Web.Mvc.dll
+F:\Desktop Folders 16-01-16\FasterJsonAPI\SchoolAPIMVC5\SchoolAPIMVC5\bin\System.Web.Optimization.dll
+F:\Desktop Folders 16-01-16\FasterJsonAPI\SchoolAPIMVC5\SchoolAPIMVC5\bin\System.Web.Razor.dll
+F:\Desktop Folders 16-01-16\FasterJsonAPI\SchoolAPIMVC5\SchoolAPIMVC5\bin\System.Web.WebPages.Deployment.dll
+F:\Desktop Folders 16-01-16\FasterJsonAPI\SchoolAPIMVC5\SchoolAPIMVC5\bin\System.Web.WebPages.dll
+F:\Desktop Folders 16-01-16\FasterJsonAPI\SchoolAPIMVC5\SchoolAPIMVC5\bin\System.Web.WebPages.Razor.dll
+F:\Desktop Folders 16-01-16\FasterJsonAPI\SchoolAPIMVC5\SchoolAPIMVC5\bin\Thinktecture.IdentityModel.dll
+F:\Desktop Folders 16-01-16\FasterJsonAPI\SchoolAPIMVC5\SchoolAPIMVC5\bin\WebGrease.dll
+F:\Desktop Folders 16-01-16\FasterJsonAPI\SchoolAPIMVC5\SchoolAPIMVC5\bin\System.IdentityModel.Tokens.Jwt.xml
+F:\Desktop Folders 16-01-16\FasterJsonAPI\SchoolAPIMVC5\SchoolAPIMVC5\bin\Newtonsoft.Json.xml
+F:\Desktop Folders 16-01-16\FasterJsonAPI\SchoolAPIMVC5\SchoolAPIMVC5\bin\System.Net.Http.Formatting.xml
+F:\Desktop Folders 16-01-16\FasterJsonAPI\SchoolAPIMVC5\SchoolAPIMVC5\bin\System.Web.Helpers.xml
+F:\Desktop Folders 16-01-16\FasterJsonAPI\SchoolAPIMVC5\SchoolAPIMVC5\bin\System.Web.Http.xml
+F:\Desktop Folders 16-01-16\FasterJsonAPI\SchoolAPIMVC5\SchoolAPIMVC5\bin\System.Web.Http.WebHost.xml
+F:\Desktop Folders 16-01-16\FasterJsonAPI\SchoolAPIMVC5\SchoolAPIMVC5\bin\System.Web.Mvc.xml
+F:\Desktop Folders 16-01-16\FasterJsonAPI\SchoolAPIMVC5\SchoolAPIMVC5\bin\System.Web.Optimization.xml
+F:\Desktop Folders 16-01-16\FasterJsonAPI\SchoolAPIMVC5\SchoolAPIMVC5\bin\System.Web.Razor.xml
+F:\Desktop Folders 16-01-16\FasterJsonAPI\SchoolAPIMVC5\SchoolAPIMVC5\bin\System.Web.WebPages.xml
+F:\Desktop Folders 16-01-16\FasterJsonAPI\SchoolAPIMVC5\SchoolAPIMVC5\bin\System.Web.WebPages.Deployment.xml
+F:\Desktop Folders 16-01-16\FasterJsonAPI\SchoolAPIMVC5\SchoolAPIMVC5\bin\System.Web.WebPages.Razor.xml
+F:\Desktop Folders 16-01-16\FasterJsonAPI\SchoolAPIMVC5\SchoolAPIMVC5\bin\Thinktecture.IdentityModel.pdb
+F:\Desktop Folders 16-01-16\FasterJsonAPI\SchoolAPIMVC5\SchoolAPIMVC5\bin\Thinktecture.IdentityModel.xml
+F:\Desktop Folders 16-01-16\FasterJsonAPI\SchoolAPIMVC5\SchoolAPIMVC5\bin\Antlr3.Runtime.pdb
+F:\Desktop Folders 16-01-16\FasterJsonAPI\SchoolAPIMVC5\SchoolAPIMVC5\bin\EntityFramework.xml
+F:\Desktop Folders 16-01-16\FasterJsonAPI\SchoolAPIMVC5\SchoolAPIMVC5\bin\EntityFramework.SqlServer.xml
+F:\Desktop Folders 16-01-16\FasterJsonAPI\SchoolAPIMVC5\SchoolAPIMVC5\bin\Microsoft.AspNet.Identity.Core.xml
+F:\Desktop Folders 16-01-16\FasterJsonAPI\SchoolAPIMVC5\SchoolAPIMVC5\bin\Microsoft.AspNet.Identity.Owin.xml
+F:\Desktop Folders 16-01-16\FasterJsonAPI\SchoolAPIMVC5\SchoolAPIMVC5\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+F:\Desktop Folders 16-01-16\FasterJsonAPI\SchoolAPIMVC5\SchoolAPIMVC5\bin\Microsoft.Owin.xml
+F:\Desktop Folders 16-01-16\FasterJsonAPI\SchoolAPIMVC5\SchoolAPIMVC5\bin\Microsoft.Owin.Host.SystemWeb.xml
+F:\Desktop Folders 16-01-16\FasterJsonAPI\SchoolAPIMVC5\SchoolAPIMVC5\bin\Microsoft.Owin.Security.xml
+F:\Desktop Folders 16-01-16\FasterJsonAPI\SchoolAPIMVC5\SchoolAPIMVC5\bin\Microsoft.Owin.Security.Facebook.xml
+F:\Desktop Folders 16-01-16\FasterJsonAPI\SchoolAPIMVC5\SchoolAPIMVC5\bin\Microsoft.Owin.Security.Cookies.xml
+F:\Desktop Folders 16-01-16\FasterJsonAPI\SchoolAPIMVC5\SchoolAPIMVC5\bin\Microsoft.Owin.Security.OAuth.xml
+F:\Desktop Folders 16-01-16\FasterJsonAPI\SchoolAPIMVC5\SchoolAPIMVC5\bin\Microsoft.Owin.Security.Google.xml
+F:\Desktop Folders 16-01-16\FasterJsonAPI\SchoolAPIMVC5\SchoolAPIMVC5\bin\Microsoft.Owin.Security.Twitter.xml
+F:\Desktop Folders 16-01-16\FasterJsonAPI\SchoolAPIMVC5\SchoolAPIMVC5\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+F:\Desktop Folders 16-01-16\FasterJsonAPI\SchoolAPIMVC5\SchoolAPIMVC5\bin\System.Web.Http.Owin.xml
+F:\Desktop Folders 16-01-16\FasterJsonAPI\SchoolAPIMVC5\SchoolAPIMVC5\obj\Debug\SchoolAPIMVC5.csprojResolveAssemblyReference.cache
+F:\Desktop Folders 16-01-16\FasterJsonAPI\SchoolAPIMVC5\SchoolAPIMVC5\obj\Debug\SchoolAPIMVC5.dll
+F:\Desktop Folders 16-01-16\FasterJsonAPI\SchoolAPIMVC5\SchoolAPIMVC5\obj\Debug\SchoolAPIMVC5.pdb

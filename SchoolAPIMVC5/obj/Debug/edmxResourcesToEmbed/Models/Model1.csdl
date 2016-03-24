@@ -1,0 +1,584 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="SchoolManagementDBModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Attendence">
+    <Key>
+      <PropertyRef Name="AttID" />
+    </Key>
+    <Property Name="AttID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="AttDate" Type="DateTime" Precision="0" />
+    <Property Name="IsPresent" Type="Boolean" />
+    <Property Name="ClassID" Type="Int32" />
+    <Property Name="StudentID" Type="Int32" />
+    <NavigationProperty Name="tblClass" Relationship="Self.FK__Attendenc__Class__49C3F6B7" FromRole="Attendence" ToRole="tblClass" />
+    <NavigationProperty Name="Student" Relationship="Self.FK__Attendenc__Stude__4AB81AF0" FromRole="Attendence" ToRole="Student" />
+    <NavigationProperty Name="Students" Relationship="Self.FK_ATT_TOStudent" FromRole="Attendence" ToRole="Student" />
+  </EntityType>
+  <EntityType Name="ClassRoutine">
+    <Key>
+      <PropertyRef Name="RoutineID" />
+    </Key>
+    <Property Name="RoutineID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ClassID" Type="Int32" />
+    <Property Name="SectionID" Type="Int32" />
+    <Property Name="SubjectID" Type="Int32" />
+    <Property Name="DayNam" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="StartingTime" Type="DateTime" Precision="3" />
+    <Property Name="EndingTiem" Type="DateTime" Precision="3" />
+    <NavigationProperty Name="tblClass" Relationship="Self.FK__ClassRout__Class__24927208" FromRole="ClassRoutine" ToRole="tblClass" />
+    <NavigationProperty Name="SECTION" Relationship="Self.FK__ClassRout__Secti__25869641" FromRole="ClassRoutine" ToRole="SECTION" />
+    <NavigationProperty Name="SubjectInfo" Relationship="Self.FK__ClassRout__Subje__267ABA7A" FromRole="ClassRoutine" ToRole="SubjectInfo" />
+  </EntityType>
+  <EntityType Name="Exam">
+    <Key>
+      <PropertyRef Name="ExamID" />
+    </Key>
+    <Property Name="ExamID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ExamName" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="ExamType" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="ClassID" Type="Int32" />
+    <NavigationProperty Name="tblClass" Relationship="Self.FK__Exam__ClassID__21B6055D" FromRole="Exam" ToRole="tblClass" />
+    <NavigationProperty Name="MARKS" Relationship="Self.FK__MARKS__ExamID__2D27B809" FromRole="Exam" ToRole="MARKS" />
+  </EntityType>
+  <EntityType Name="Expense">
+    <Key>
+      <PropertyRef Name="ExpenseID" />
+    </Key>
+    <Property Name="ExpenseID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ExpenseTitle" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="ExpenseDescription" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="CatID" Type="Int32" />
+    <NavigationProperty Name="ExpenseCategory" Relationship="Self.FK__Expense__CatID__3E52440B" FromRole="Expense" ToRole="ExpenseCategory" />
+  </EntityType>
+  <EntityType Name="ExpenseCategory">
+    <Key>
+      <PropertyRef Name="CatID" />
+    </Key>
+    <Property Name="CatID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="CatName" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="Expenses" Relationship="Self.FK__Expense__CatID__3E52440B" FromRole="ExpenseCategory" ToRole="Expense" />
+  </EntityType>
+  <EntityType Name="Grade">
+    <Key>
+      <PropertyRef Name="GradeID" />
+    </Key>
+    <Property Name="GradeID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="SubjectID" Type="Int32" />
+    <Property Name="GradePoint" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="Grade1" Type="String" MaxLength="3" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="SubjectInfo" Relationship="Self.FK__Grades__SubjectI__32E0915F" FromRole="Grades" ToRole="SubjectInfo" />
+  </EntityType>
+  <EntityType Name="Income">
+    <Key>
+      <PropertyRef Name="IncomeID" />
+    </Key>
+    <Property Name="IncomeID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="IncomeTitle" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Description" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Amount" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="IncomeDate" Type="DateTime" Precision="0" />
+    <Property Name="PaymentID" Type="Int32" />
+    <NavigationProperty Name="Payment" Relationship="Self.FK__Income__PaymentI__398D8EEE" FromRole="Income" ToRole="Payment" />
+  </EntityType>
+  <EntityType Name="MARK">
+    <Key>
+      <PropertyRef Name="MarkID" />
+    </Key>
+    <Property Name="MarkID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ExamID" Type="Int32" />
+    <Property Name="ClassID" Type="Int32" />
+    <Property Name="SubjectID" Type="Int32" />
+    <Property Name="StudentID" Type="Int32" />
+    <NavigationProperty Name="Exam" Relationship="Self.FK__MARKS__ExamID__2D27B809" FromRole="MARKS" ToRole="Exam" />
+    <NavigationProperty Name="tblClass" Relationship="Self.FK__MARKS__ClassID__2E1BDC42" FromRole="MARKS" ToRole="tblClass" />
+    <NavigationProperty Name="Student" Relationship="Self.FK__MARKS__StudentID__300424B4" FromRole="MARKS" ToRole="Student" />
+    <NavigationProperty Name="SubjectInfo" Relationship="Self.FK__MARKS__SubjectID__2F10007B" FromRole="MARKS" ToRole="SubjectInfo" />
+  </EntityType>
+  <EntityType Name="Parent">
+    <Key>
+      <PropertyRef Name="ParentID" />
+    </Key>
+    <Property Name="ParentID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ParentName" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="ParentAddress" Type="String" MaxLength="200" FixedLength="false" Unicode="false" />
+    <Property Name="ParentMobile" Type="String" MaxLength="15" FixedLength="false" Unicode="false" />
+    <Property Name="ParentLandPhone" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="ParentEmail" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="ParentPassword" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="ParentWork" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="ParentPhoto" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="Students" Relationship="Self.FK__Student__ParentI__1ED998B2" FromRole="Parent" ToRole="Student" />
+  </EntityType>
+  <EntityType Name="Payment">
+    <Key>
+      <PropertyRef Name="PaymentID" />
+    </Key>
+    <Property Name="PaymentID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="PaymentTitle" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="PaymentDescription" Type="String" MaxLength="200" FixedLength="false" Unicode="false" />
+    <Property Name="ClassID" Type="Int32" />
+    <Property Name="StudentID" Type="Int32" />
+    <Property Name="PaymentTotal" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="PaymentPaid" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="PaymentDue" Type="Decimal" Precision="19" Scale="0" annotation:StoreGeneratedPattern="Computed" />
+    <Property Name="PaymentDate" Type="DateTime" Precision="0" />
+    <Property Name="PaymentMethod" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="Incomes" Relationship="Self.FK__Income__PaymentI__398D8EEE" FromRole="Payment" ToRole="Income" />
+    <NavigationProperty Name="tblClass" Relationship="Self.FK__Payment__ClassID__35BCFE0A" FromRole="Payment" ToRole="tblClass" />
+    <NavigationProperty Name="Student" Relationship="Self.FK__Payment__Student__36B12243" FromRole="Payment" ToRole="Student" />
+  </EntityType>
+  <EntityType Name="SECTION">
+    <Key>
+      <PropertyRef Name="SectionID" />
+    </Key>
+    <Property Name="SectionID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="SectionName" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="ClassRoutines" Relationship="Self.FK__ClassRout__Secti__25869641" FromRole="SECTION" ToRole="ClassRoutine" />
+    <NavigationProperty Name="Students" Relationship="Self.FK__Student__Section__1DE57479" FromRole="SECTION" ToRole="Student" />
+    <NavigationProperty Name="tblClasses" Relationship="Self.FK__tblClass__Sectio__145C0A3F" FromRole="SECTION" ToRole="tblClass" />
+  </EntityType>
+  <EntityType Name="Student">
+    <Key>
+      <PropertyRef Name="StudentID" />
+    </Key>
+    <Property Name="StudentID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="StudentName" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="StudentRoll" Type="Int32" />
+    <Property Name="StudentBirthday" Type="DateTime" Precision="3" />
+    <Property Name="StudentAddress" Type="String" MaxLength="200" FixedLength="false" Unicode="false" />
+    <Property Name="StudentPhone" Type="String" MaxLength="15" FixedLength="false" Unicode="false" />
+    <Property Name="StudentEmail" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="StudentPassword" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="Gender" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="Religion" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="StudentImage" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="ClassID" Type="Int32" />
+    <Property Name="SectionID" Type="Int32" />
+    <Property Name="ParentID" Type="Int32" />
+    <Property Name="AttID" Type="Int32" />
+    <NavigationProperty Name="Attendences" Relationship="Self.FK__Attendenc__Stude__4AB81AF0" FromRole="Student" ToRole="Attendence" />
+    <NavigationProperty Name="Attendence" Relationship="Self.FK_ATT_TOStudent" FromRole="Student" ToRole="Attendence" />
+    <NavigationProperty Name="MARKS" Relationship="Self.FK__MARKS__StudentID__300424B4" FromRole="Student" ToRole="MARKS" />
+    <NavigationProperty Name="Parent" Relationship="Self.FK__Student__ParentI__1ED998B2" FromRole="Student" ToRole="Parent" />
+    <NavigationProperty Name="Payments" Relationship="Self.FK__Payment__Student__36B12243" FromRole="Student" ToRole="Payment" />
+    <NavigationProperty Name="SECTION" Relationship="Self.FK__Student__Section__1DE57479" FromRole="Student" ToRole="SECTION" />
+    <NavigationProperty Name="tblClass" Relationship="Self.FK__Student__ClassID__1CF15040" FromRole="Student" ToRole="tblClass" />
+  </EntityType>
+  <EntityType Name="SubjectInfo">
+    <Key>
+      <PropertyRef Name="SubjectID" />
+    </Key>
+    <Property Name="SubjectID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="SubjectName" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="AuthorName" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="ClassID" Type="Int32" />
+    <NavigationProperty Name="ClassRoutines" Relationship="Self.FK__ClassRout__Subje__267ABA7A" FromRole="SubjectInfo" ToRole="ClassRoutine" />
+    <NavigationProperty Name="Grades" Relationship="Self.FK__Grades__SubjectI__32E0915F" FromRole="SubjectInfo" ToRole="Grades" />
+    <NavigationProperty Name="MARKS" Relationship="Self.FK__MARKS__SubjectID__2F10007B" FromRole="SubjectInfo" ToRole="MARKS" />
+    <NavigationProperty Name="tblClass" Relationship="Self.FK__SubjectIn__Class__182C9B23" FromRole="SubjectInfo" ToRole="tblClass" />
+  </EntityType>
+  <EntityType Name="tblClass">
+    <Key>
+      <PropertyRef Name="ClassID" />
+    </Key>
+    <Property Name="ClassID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ClassName" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="SectionID" Type="Int32" />
+    <Property Name="TeacharID" Type="Int32" />
+    <NavigationProperty Name="Attendences" Relationship="Self.FK__Attendenc__Class__49C3F6B7" FromRole="tblClass" ToRole="Attendence" />
+    <NavigationProperty Name="ClassRoutines" Relationship="Self.FK__ClassRout__Class__24927208" FromRole="tblClass" ToRole="ClassRoutine" />
+    <NavigationProperty Name="Exams" Relationship="Self.FK__Exam__ClassID__21B6055D" FromRole="tblClass" ToRole="Exam" />
+    <NavigationProperty Name="MARKS" Relationship="Self.FK__MARKS__ClassID__2E1BDC42" FromRole="tblClass" ToRole="MARKS" />
+    <NavigationProperty Name="Payments" Relationship="Self.FK__Payment__ClassID__35BCFE0A" FromRole="tblClass" ToRole="Payment" />
+    <NavigationProperty Name="SECTION" Relationship="Self.FK__tblClass__Sectio__145C0A3F" FromRole="tblClass" ToRole="SECTION" />
+    <NavigationProperty Name="Students" Relationship="Self.FK__Student__ClassID__1CF15040" FromRole="tblClass" ToRole="Student" />
+    <NavigationProperty Name="SubjectInfoes" Relationship="Self.FK__SubjectIn__Class__182C9B23" FromRole="tblClass" ToRole="SubjectInfo" />
+    <NavigationProperty Name="Teacher" Relationship="Self.FK__tblClass__Teacha__15502E78" FromRole="tblClass" ToRole="Teacher" />
+  </EntityType>
+  <EntityType Name="Teacher">
+    <Key>
+      <PropertyRef Name="TeacherID" />
+    </Key>
+    <Property Name="TeacherID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="TeacherName" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="TeacherAddress" Type="String" MaxLength="200" FixedLength="false" Unicode="false" />
+    <Property Name="TeacherPhone" Type="String" MaxLength="15" FixedLength="false" Unicode="false" />
+    <Property Name="TeacherEmail" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="TeacherPhoto" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+    <Property Name="TeacherDesignation" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="Gender" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="Religion" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="JoiningDate" Type="DateTime" Precision="0" />
+    <Property Name="UserName" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Password" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="tblClasses" Relationship="Self.FK__tblClass__Teacha__15502E78" FromRole="Teacher" ToRole="tblClass" />
+  </EntityType>
+  <Association Name="FK__Attendenc__Class__49C3F6B7">
+    <End Role="tblClass" Type="Self.tblClass" Multiplicity="0..1" />
+    <End Role="Attendence" Type="Self.Attendence" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tblClass">
+        <PropertyRef Name="ClassID" />
+      </Principal>
+      <Dependent Role="Attendence">
+        <PropertyRef Name="ClassID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Attendenc__Stude__4AB81AF0">
+    <End Role="Student" Type="Self.Student" Multiplicity="0..1" />
+    <End Role="Attendence" Type="Self.Attendence" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Student">
+        <PropertyRef Name="StudentID" />
+      </Principal>
+      <Dependent Role="Attendence">
+        <PropertyRef Name="StudentID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ATT_TOStudent">
+    <End Role="Attendence" Type="Self.Attendence" Multiplicity="0..1" />
+    <End Role="Student" Type="Self.Student" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Attendence">
+        <PropertyRef Name="AttID" />
+      </Principal>
+      <Dependent Role="Student">
+        <PropertyRef Name="AttID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__ClassRout__Class__24927208">
+    <End Role="tblClass" Type="Self.tblClass" Multiplicity="0..1" />
+    <End Role="ClassRoutine" Type="Self.ClassRoutine" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tblClass">
+        <PropertyRef Name="ClassID" />
+      </Principal>
+      <Dependent Role="ClassRoutine">
+        <PropertyRef Name="ClassID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__ClassRout__Secti__25869641">
+    <End Role="SECTION" Type="Self.SECTION" Multiplicity="0..1" />
+    <End Role="ClassRoutine" Type="Self.ClassRoutine" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="SECTION">
+        <PropertyRef Name="SectionID" />
+      </Principal>
+      <Dependent Role="ClassRoutine">
+        <PropertyRef Name="SectionID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__ClassRout__Subje__267ABA7A">
+    <End Role="SubjectInfo" Type="Self.SubjectInfo" Multiplicity="0..1" />
+    <End Role="ClassRoutine" Type="Self.ClassRoutine" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="SubjectInfo">
+        <PropertyRef Name="SubjectID" />
+      </Principal>
+      <Dependent Role="ClassRoutine">
+        <PropertyRef Name="SubjectID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Exam__ClassID__21B6055D">
+    <End Role="tblClass" Type="Self.tblClass" Multiplicity="0..1" />
+    <End Role="Exam" Type="Self.Exam" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tblClass">
+        <PropertyRef Name="ClassID" />
+      </Principal>
+      <Dependent Role="Exam">
+        <PropertyRef Name="ClassID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__MARKS__ExamID__2D27B809">
+    <End Role="Exam" Type="Self.Exam" Multiplicity="0..1" />
+    <End Role="MARKS" Type="Self.MARK" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Exam">
+        <PropertyRef Name="ExamID" />
+      </Principal>
+      <Dependent Role="MARKS">
+        <PropertyRef Name="ExamID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Expense__CatID__3E52440B">
+    <End Role="ExpenseCategory" Type="Self.ExpenseCategory" Multiplicity="0..1" />
+    <End Role="Expense" Type="Self.Expense" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ExpenseCategory">
+        <PropertyRef Name="CatID" />
+      </Principal>
+      <Dependent Role="Expense">
+        <PropertyRef Name="CatID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Grades__SubjectI__32E0915F">
+    <End Role="SubjectInfo" Type="Self.SubjectInfo" Multiplicity="0..1" />
+    <End Role="Grades" Type="Self.Grade" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="SubjectInfo">
+        <PropertyRef Name="SubjectID" />
+      </Principal>
+      <Dependent Role="Grades">
+        <PropertyRef Name="SubjectID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Income__PaymentI__398D8EEE">
+    <End Role="Payment" Type="Self.Payment" Multiplicity="0..1" />
+    <End Role="Income" Type="Self.Income" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Payment">
+        <PropertyRef Name="PaymentID" />
+      </Principal>
+      <Dependent Role="Income">
+        <PropertyRef Name="PaymentID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__MARKS__ClassID__2E1BDC42">
+    <End Role="tblClass" Type="Self.tblClass" Multiplicity="0..1" />
+    <End Role="MARKS" Type="Self.MARK" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tblClass">
+        <PropertyRef Name="ClassID" />
+      </Principal>
+      <Dependent Role="MARKS">
+        <PropertyRef Name="ClassID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__MARKS__StudentID__300424B4">
+    <End Role="Student" Type="Self.Student" Multiplicity="0..1" />
+    <End Role="MARKS" Type="Self.MARK" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Student">
+        <PropertyRef Name="StudentID" />
+      </Principal>
+      <Dependent Role="MARKS">
+        <PropertyRef Name="StudentID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__MARKS__SubjectID__2F10007B">
+    <End Role="SubjectInfo" Type="Self.SubjectInfo" Multiplicity="0..1" />
+    <End Role="MARKS" Type="Self.MARK" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="SubjectInfo">
+        <PropertyRef Name="SubjectID" />
+      </Principal>
+      <Dependent Role="MARKS">
+        <PropertyRef Name="SubjectID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Student__ParentI__1ED998B2">
+    <End Role="Parent" Type="Self.Parent" Multiplicity="0..1" />
+    <End Role="Student" Type="Self.Student" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Parent">
+        <PropertyRef Name="ParentID" />
+      </Principal>
+      <Dependent Role="Student">
+        <PropertyRef Name="ParentID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Payment__ClassID__35BCFE0A">
+    <End Role="tblClass" Type="Self.tblClass" Multiplicity="0..1" />
+    <End Role="Payment" Type="Self.Payment" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tblClass">
+        <PropertyRef Name="ClassID" />
+      </Principal>
+      <Dependent Role="Payment">
+        <PropertyRef Name="ClassID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Payment__Student__36B12243">
+    <End Role="Student" Type="Self.Student" Multiplicity="0..1" />
+    <End Role="Payment" Type="Self.Payment" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Student">
+        <PropertyRef Name="StudentID" />
+      </Principal>
+      <Dependent Role="Payment">
+        <PropertyRef Name="StudentID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Student__Section__1DE57479">
+    <End Role="SECTION" Type="Self.SECTION" Multiplicity="0..1" />
+    <End Role="Student" Type="Self.Student" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="SECTION">
+        <PropertyRef Name="SectionID" />
+      </Principal>
+      <Dependent Role="Student">
+        <PropertyRef Name="SectionID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__tblClass__Sectio__145C0A3F">
+    <End Role="SECTION" Type="Self.SECTION" Multiplicity="0..1" />
+    <End Role="tblClass" Type="Self.tblClass" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="SECTION">
+        <PropertyRef Name="SectionID" />
+      </Principal>
+      <Dependent Role="tblClass">
+        <PropertyRef Name="SectionID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Student__ClassID__1CF15040">
+    <End Role="tblClass" Type="Self.tblClass" Multiplicity="0..1" />
+    <End Role="Student" Type="Self.Student" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tblClass">
+        <PropertyRef Name="ClassID" />
+      </Principal>
+      <Dependent Role="Student">
+        <PropertyRef Name="ClassID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__SubjectIn__Class__182C9B23">
+    <End Role="tblClass" Type="Self.tblClass" Multiplicity="0..1" />
+    <End Role="SubjectInfo" Type="Self.SubjectInfo" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tblClass">
+        <PropertyRef Name="ClassID" />
+      </Principal>
+      <Dependent Role="SubjectInfo">
+        <PropertyRef Name="ClassID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__tblClass__Teacha__15502E78">
+    <End Role="Teacher" Type="Self.Teacher" Multiplicity="0..1" />
+    <End Role="tblClass" Type="Self.tblClass" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Teacher">
+        <PropertyRef Name="TeacherID" />
+      </Principal>
+      <Dependent Role="tblClass">
+        <PropertyRef Name="TeacharID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="SchoolManagementDBEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Attendences" EntityType="Self.Attendence" />
+    <EntitySet Name="ClassRoutines" EntityType="Self.ClassRoutine" />
+    <EntitySet Name="Exams" EntityType="Self.Exam" />
+    <EntitySet Name="Expenses" EntityType="Self.Expense" />
+    <EntitySet Name="ExpenseCategories" EntityType="Self.ExpenseCategory" />
+    <EntitySet Name="Grades" EntityType="Self.Grade" />
+    <EntitySet Name="Incomes" EntityType="Self.Income" />
+    <EntitySet Name="MARKS" EntityType="Self.MARK" />
+    <EntitySet Name="Parents" EntityType="Self.Parent" />
+    <EntitySet Name="Payments" EntityType="Self.Payment" />
+    <EntitySet Name="SECTIONs" EntityType="Self.SECTION" />
+    <EntitySet Name="Students" EntityType="Self.Student" />
+    <EntitySet Name="SubjectInfoes" EntityType="Self.SubjectInfo" />
+    <EntitySet Name="tblClasses" EntityType="Self.tblClass" />
+    <EntitySet Name="Teachers" EntityType="Self.Teacher" />
+    <AssociationSet Name="FK__Attendenc__Class__49C3F6B7" Association="Self.FK__Attendenc__Class__49C3F6B7">
+      <End Role="tblClass" EntitySet="tblClasses" />
+      <End Role="Attendence" EntitySet="Attendences" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Attendenc__Stude__4AB81AF0" Association="Self.FK__Attendenc__Stude__4AB81AF0">
+      <End Role="Student" EntitySet="Students" />
+      <End Role="Attendence" EntitySet="Attendences" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ATT_TOStudent" Association="Self.FK_ATT_TOStudent">
+      <End Role="Attendence" EntitySet="Attendences" />
+      <End Role="Student" EntitySet="Students" />
+    </AssociationSet>
+    <AssociationSet Name="FK__ClassRout__Class__24927208" Association="Self.FK__ClassRout__Class__24927208">
+      <End Role="tblClass" EntitySet="tblClasses" />
+      <End Role="ClassRoutine" EntitySet="ClassRoutines" />
+    </AssociationSet>
+    <AssociationSet Name="FK__ClassRout__Secti__25869641" Association="Self.FK__ClassRout__Secti__25869641">
+      <End Role="SECTION" EntitySet="SECTIONs" />
+      <End Role="ClassRoutine" EntitySet="ClassRoutines" />
+    </AssociationSet>
+    <AssociationSet Name="FK__ClassRout__Subje__267ABA7A" Association="Self.FK__ClassRout__Subje__267ABA7A">
+      <End Role="SubjectInfo" EntitySet="SubjectInfoes" />
+      <End Role="ClassRoutine" EntitySet="ClassRoutines" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Exam__ClassID__21B6055D" Association="Self.FK__Exam__ClassID__21B6055D">
+      <End Role="tblClass" EntitySet="tblClasses" />
+      <End Role="Exam" EntitySet="Exams" />
+    </AssociationSet>
+    <AssociationSet Name="FK__MARKS__ExamID__2D27B809" Association="Self.FK__MARKS__ExamID__2D27B809">
+      <End Role="Exam" EntitySet="Exams" />
+      <End Role="MARKS" EntitySet="MARKS" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Expense__CatID__3E52440B" Association="Self.FK__Expense__CatID__3E52440B">
+      <End Role="ExpenseCategory" EntitySet="ExpenseCategories" />
+      <End Role="Expense" EntitySet="Expenses" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Grades__SubjectI__32E0915F" Association="Self.FK__Grades__SubjectI__32E0915F">
+      <End Role="SubjectInfo" EntitySet="SubjectInfoes" />
+      <End Role="Grades" EntitySet="Grades" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Income__PaymentI__398D8EEE" Association="Self.FK__Income__PaymentI__398D8EEE">
+      <End Role="Payment" EntitySet="Payments" />
+      <End Role="Income" EntitySet="Incomes" />
+    </AssociationSet>
+    <AssociationSet Name="FK__MARKS__ClassID__2E1BDC42" Association="Self.FK__MARKS__ClassID__2E1BDC42">
+      <End Role="tblClass" EntitySet="tblClasses" />
+      <End Role="MARKS" EntitySet="MARKS" />
+    </AssociationSet>
+    <AssociationSet Name="FK__MARKS__StudentID__300424B4" Association="Self.FK__MARKS__StudentID__300424B4">
+      <End Role="Student" EntitySet="Students" />
+      <End Role="MARKS" EntitySet="MARKS" />
+    </AssociationSet>
+    <AssociationSet Name="FK__MARKS__SubjectID__2F10007B" Association="Self.FK__MARKS__SubjectID__2F10007B">
+      <End Role="SubjectInfo" EntitySet="SubjectInfoes" />
+      <End Role="MARKS" EntitySet="MARKS" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Student__ParentI__1ED998B2" Association="Self.FK__Student__ParentI__1ED998B2">
+      <End Role="Parent" EntitySet="Parents" />
+      <End Role="Student" EntitySet="Students" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Payment__ClassID__35BCFE0A" Association="Self.FK__Payment__ClassID__35BCFE0A">
+      <End Role="tblClass" EntitySet="tblClasses" />
+      <End Role="Payment" EntitySet="Payments" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Payment__Student__36B12243" Association="Self.FK__Payment__Student__36B12243">
+      <End Role="Student" EntitySet="Students" />
+      <End Role="Payment" EntitySet="Payments" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Student__Section__1DE57479" Association="Self.FK__Student__Section__1DE57479">
+      <End Role="SECTION" EntitySet="SECTIONs" />
+      <End Role="Student" EntitySet="Students" />
+    </AssociationSet>
+    <AssociationSet Name="FK__tblClass__Sectio__145C0A3F" Association="Self.FK__tblClass__Sectio__145C0A3F">
+      <End Role="SECTION" EntitySet="SECTIONs" />
+      <End Role="tblClass" EntitySet="tblClasses" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Student__ClassID__1CF15040" Association="Self.FK__Student__ClassID__1CF15040">
+      <End Role="tblClass" EntitySet="tblClasses" />
+      <End Role="Student" EntitySet="Students" />
+    </AssociationSet>
+    <AssociationSet Name="FK__SubjectIn__Class__182C9B23" Association="Self.FK__SubjectIn__Class__182C9B23">
+      <End Role="tblClass" EntitySet="tblClasses" />
+      <End Role="SubjectInfo" EntitySet="SubjectInfoes" />
+    </AssociationSet>
+    <AssociationSet Name="FK__tblClass__Teacha__15502E78" Association="Self.FK__tblClass__Teacha__15502E78">
+      <End Role="Teacher" EntitySet="Teachers" />
+      <End Role="tblClass" EntitySet="tblClasses" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

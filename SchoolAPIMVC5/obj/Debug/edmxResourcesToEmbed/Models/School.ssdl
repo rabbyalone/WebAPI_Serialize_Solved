@@ -1,0 +1,477 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="SchoolManagementDBModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Attendence">
+    <Key>
+      <PropertyRef Name="AttID" />
+    </Key>
+    <Property Name="AttID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="AttDate" Type="date" />
+    <Property Name="IsPresent" Type="bit" />
+    <Property Name="ClassID" Type="int" />
+    <Property Name="StudentID" Type="int" />
+  </EntityType>
+  <EntityType Name="ClassRoutine">
+    <Key>
+      <PropertyRef Name="RoutineID" />
+    </Key>
+    <Property Name="RoutineID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="ClassID" Type="int" />
+    <Property Name="SectionID" Type="int" />
+    <Property Name="SubjectID" Type="int" />
+    <Property Name="DayNam" Type="varchar" MaxLength="10" />
+    <Property Name="StartingTime" Type="datetime" />
+    <Property Name="EndingTiem" Type="datetime" />
+  </EntityType>
+  <EntityType Name="Exam">
+    <Key>
+      <PropertyRef Name="ExamID" />
+    </Key>
+    <Property Name="ExamID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="ExamName" Type="varchar" MaxLength="100" />
+    <Property Name="ExamType" Type="varchar" MaxLength="20" />
+    <Property Name="ClassID" Type="int" />
+  </EntityType>
+  <EntityType Name="MARKS">
+    <Key>
+      <PropertyRef Name="MarkID" />
+    </Key>
+    <Property Name="MarkID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="ExamID" Type="int" />
+    <Property Name="ClassID" Type="int" />
+    <Property Name="SubjectID" Type="int" />
+    <Property Name="StudentID" Type="int" />
+  </EntityType>
+  <EntityType Name="Parent">
+    <Key>
+      <PropertyRef Name="ParentID" />
+    </Key>
+    <Property Name="ParentID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="ParentName" Type="varchar" MaxLength="20" />
+    <Property Name="ParentAddress" Type="varchar" MaxLength="200" />
+    <Property Name="ParentMobile" Type="varchar" MaxLength="15" />
+    <Property Name="ParentLandPhone" Type="varchar" MaxLength="10" />
+    <Property Name="ParentEmail" Type="varchar" MaxLength="50" />
+    <Property Name="ParentPassword" Type="varchar" MaxLength="20" />
+    <Property Name="ParentWork" Type="varchar" MaxLength="20" />
+    <Property Name="ParentPhoto" Type="varchar(max)" />
+  </EntityType>
+  <EntityType Name="SECTION">
+    <Key>
+      <PropertyRef Name="SectionID" />
+    </Key>
+    <Property Name="SectionID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="SectionName" Type="varchar" MaxLength="10" />
+  </EntityType>
+  <EntityType Name="Student">
+    <Key>
+      <PropertyRef Name="StudentID" />
+    </Key>
+    <Property Name="StudentID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="StudentName" Type="varchar" MaxLength="50" />
+    <Property Name="StudentRoll" Type="int" />
+    <Property Name="StudentBirthday" Type="datetime" />
+    <Property Name="StudentAddress" Type="varchar" MaxLength="200" />
+    <Property Name="StudentPhone" Type="varchar" MaxLength="15" />
+    <Property Name="StudentEmail" Type="varchar" MaxLength="50" />
+    <Property Name="StudentPassword" Type="varchar" MaxLength="20" />
+    <Property Name="Gender" Type="varchar" MaxLength="30" />
+    <Property Name="Religion" Type="varchar" MaxLength="30" />
+    <Property Name="StudentImage" Type="varchar(max)" />
+    <Property Name="ClassID" Type="int" />
+    <Property Name="SectionID" Type="int" />
+    <Property Name="ParentID" Type="int" />
+    <Property Name="AttID" Type="int" />
+  </EntityType>
+  <EntityType Name="SubjectInfo">
+    <Key>
+      <PropertyRef Name="SubjectID" />
+    </Key>
+    <Property Name="SubjectID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="SubjectName" Type="varchar" MaxLength="100" />
+    <Property Name="AuthorName" Type="varchar" MaxLength="50" />
+    <Property Name="ClassID" Type="int" />
+  </EntityType>
+  <EntityType Name="tblClass">
+    <Key>
+      <PropertyRef Name="ClassID" />
+    </Key>
+    <Property Name="ClassID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="ClassName" Type="varchar" MaxLength="10" />
+    <Property Name="SectionID" Type="int" />
+    <Property Name="TeacharID" Type="int" />
+  </EntityType>
+  <EntityType Name="Teacher">
+    <Key>
+      <PropertyRef Name="TeacherID" />
+    </Key>
+    <Property Name="TeacherID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="TeacherName" Type="varchar" MaxLength="50" />
+    <Property Name="TeacherAddress" Type="varchar" MaxLength="200" />
+    <Property Name="TeacherPhone" Type="varchar" MaxLength="15" />
+    <Property Name="TeacherEmail" Type="varchar" MaxLength="50" />
+    <Property Name="TeacherPhoto" Type="varchar(max)" />
+    <Property Name="TeacherDesignation" Type="varchar" MaxLength="20" />
+    <Property Name="Gender" Type="varchar" MaxLength="10" />
+    <Property Name="Religion" Type="varchar" MaxLength="30" />
+    <Property Name="JoiningDate" Type="date" />
+    <Property Name="UserName" Type="varchar" MaxLength="50" />
+    <Property Name="Password" Type="varchar" MaxLength="50" />
+  </EntityType>
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'SchoolManagementDB.dbo.StudentInformation' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="StudentInformation">
+    <Key>
+      <PropertyRef Name="StudentFirstName" />
+      <PropertyRef Name="StudentMiddleName" />
+      <PropertyRef Name="StudentLastName" />
+      <PropertyRef Name="FathersName" />
+      <PropertyRef Name="MothersName" />
+      <PropertyRef Name="DOB" />
+      <PropertyRef Name="Religion" />
+      <PropertyRef Name="Nationality" />
+    </Key>
+    <Property Name="ClassName" Type="varchar" MaxLength="50" />
+    <Property Name="SectionName" Type="varchar" MaxLength="50" />
+    <Property Name="DateOfAdmission" Type="datetime" />
+    <Property Name="StudentFirstName" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="StudentMiddleName" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="StudentLastName" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="FathersName" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="MothersName" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="DOB" Type="date" Nullable="false" />
+    <Property Name="Religion" Type="varchar" MaxLength="40" Nullable="false" />
+    <Property Name="Nationality" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="RelationWithGardians" Type="varchar" MaxLength="30" />
+  </EntityType>
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'SchoolManagementDB.dbo.TeacherInformationview' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="TeacherInformationview">
+    <Key>
+      <PropertyRef Name="TeacherId" />
+    </Key>
+    <Property Name="TeacherId" Type="int" Nullable="false" />
+    <Property Name="TeacherFirstName" Type="varchar" MaxLength="30" />
+    <Property Name="TeacherLastName" Type="varchar" MaxLength="30" />
+    <Property Name="FatherName" Type="varchar" MaxLength="50" />
+    <Property Name="Gender" Type="varchar" MaxLength="20" />
+    <Property Name="Nationality" Type="varchar" MaxLength="50" />
+    <Property Name="Religion" Type="varchar" MaxLength="40" />
+    <Property Name="Depertment" Type="varchar" MaxLength="20" />
+    <Property Name="TeachingExprienceYear" Type="varchar" MaxLength="20" />
+    <Property Name="TraingName" Type="varchar" MaxLength="50" />
+  </EntityType>
+  <Association Name="FK__Attendenc__Class__4F7CD00D">
+    <End Role="tblClass" Type="Self.tblClass" Multiplicity="0..1" />
+    <End Role="Attendence" Type="Self.Attendence" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tblClass">
+        <PropertyRef Name="ClassID" />
+      </Principal>
+      <Dependent Role="Attendence">
+        <PropertyRef Name="ClassID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Attendenc__Stude__5070F446">
+    <End Role="Student" Type="Self.Student" Multiplicity="0..1" />
+    <End Role="Attendence" Type="Self.Attendence" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Student">
+        <PropertyRef Name="StudentID" />
+      </Principal>
+      <Dependent Role="Attendence">
+        <PropertyRef Name="StudentID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__ClassRout__Class__4AB81AF0">
+    <End Role="tblClass" Type="Self.tblClass" Multiplicity="0..1" />
+    <End Role="ClassRoutine" Type="Self.ClassRoutine" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tblClass">
+        <PropertyRef Name="ClassID" />
+      </Principal>
+      <Dependent Role="ClassRoutine">
+        <PropertyRef Name="ClassID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__ClassRout__Secti__4BAC3F29">
+    <End Role="SECTION" Type="Self.SECTION" Multiplicity="0..1" />
+    <End Role="ClassRoutine" Type="Self.ClassRoutine" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="SECTION">
+        <PropertyRef Name="SectionID" />
+      </Principal>
+      <Dependent Role="ClassRoutine">
+        <PropertyRef Name="SectionID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__ClassRout__Subje__4CA06362">
+    <End Role="SubjectInfo" Type="Self.SubjectInfo" Multiplicity="0..1" />
+    <End Role="ClassRoutine" Type="Self.ClassRoutine" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="SubjectInfo">
+        <PropertyRef Name="SubjectID" />
+      </Principal>
+      <Dependent Role="ClassRoutine">
+        <PropertyRef Name="SubjectID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Exam__ClassID__47DBAE45">
+    <End Role="tblClass" Type="Self.tblClass" Multiplicity="0..1" />
+    <End Role="Exam" Type="Self.Exam" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tblClass">
+        <PropertyRef Name="ClassID" />
+      </Principal>
+      <Dependent Role="Exam">
+        <PropertyRef Name="ClassID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__MARKS__ClassID__5535A963">
+    <End Role="tblClass" Type="Self.tblClass" Multiplicity="0..1" />
+    <End Role="MARKS" Type="Self.MARKS" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tblClass">
+        <PropertyRef Name="ClassID" />
+      </Principal>
+      <Dependent Role="MARKS">
+        <PropertyRef Name="ClassID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__MARKS__ExamID__5441852A">
+    <End Role="Exam" Type="Self.Exam" Multiplicity="0..1" />
+    <End Role="MARKS" Type="Self.MARKS" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Exam">
+        <PropertyRef Name="ExamID" />
+      </Principal>
+      <Dependent Role="MARKS">
+        <PropertyRef Name="ExamID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__MARKS__StudentID__571DF1D5">
+    <End Role="Student" Type="Self.Student" Multiplicity="0..1" />
+    <End Role="MARKS" Type="Self.MARKS" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Student">
+        <PropertyRef Name="StudentID" />
+      </Principal>
+      <Dependent Role="MARKS">
+        <PropertyRef Name="StudentID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__MARKS__SubjectID__5629CD9C">
+    <End Role="SubjectInfo" Type="Self.SubjectInfo" Multiplicity="0..1" />
+    <End Role="MARKS" Type="Self.MARKS" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="SubjectInfo">
+        <PropertyRef Name="SubjectID" />
+      </Principal>
+      <Dependent Role="MARKS">
+        <PropertyRef Name="SubjectID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Student__ClassID__4316F928">
+    <End Role="tblClass" Type="Self.tblClass" Multiplicity="0..1" />
+    <End Role="Student" Type="Self.Student" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tblClass">
+        <PropertyRef Name="ClassID" />
+      </Principal>
+      <Dependent Role="Student">
+        <PropertyRef Name="ClassID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Student__ParentI__44FF419A">
+    <End Role="Parent" Type="Self.Parent" Multiplicity="0..1" />
+    <End Role="Student" Type="Self.Student" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Parent">
+        <PropertyRef Name="ParentID" />
+      </Principal>
+      <Dependent Role="Student">
+        <PropertyRef Name="ParentID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Student__Section__440B1D61">
+    <End Role="SECTION" Type="Self.SECTION" Multiplicity="0..1" />
+    <End Role="Student" Type="Self.Student" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="SECTION">
+        <PropertyRef Name="SectionID" />
+      </Principal>
+      <Dependent Role="Student">
+        <PropertyRef Name="SectionID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__SubjectIn__Class__3E52440B">
+    <End Role="tblClass" Type="Self.tblClass" Multiplicity="0..1" />
+    <End Role="SubjectInfo" Type="Self.SubjectInfo" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tblClass">
+        <PropertyRef Name="ClassID" />
+      </Principal>
+      <Dependent Role="SubjectInfo">
+        <PropertyRef Name="ClassID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__tblClass__Sectio__3A81B327">
+    <End Role="SECTION" Type="Self.SECTION" Multiplicity="0..1" />
+    <End Role="tblClass" Type="Self.tblClass" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="SECTION">
+        <PropertyRef Name="SectionID" />
+      </Principal>
+      <Dependent Role="tblClass">
+        <PropertyRef Name="SectionID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__tblClass__Teacha__3B75D760">
+    <End Role="Teacher" Type="Self.Teacher" Multiplicity="0..1" />
+    <End Role="tblClass" Type="Self.tblClass" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Teacher">
+        <PropertyRef Name="TeacherID" />
+      </Principal>
+      <Dependent Role="tblClass">
+        <PropertyRef Name="TeacharID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ATT_TOStudent">
+    <End Role="Attendence" Type="Self.Attendence" Multiplicity="0..1" />
+    <End Role="Student" Type="Self.Student" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Attendence">
+        <PropertyRef Name="AttID" />
+      </Principal>
+      <Dependent Role="Student">
+        <PropertyRef Name="AttID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="SchoolManagementDBModelStoreContainer">
+    <EntitySet Name="Attendence" EntityType="Self.Attendence" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="ClassRoutine" EntityType="Self.ClassRoutine" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Exam" EntityType="Self.Exam" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="MARKS" EntityType="Self.MARKS" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Parent" EntityType="Self.Parent" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="SECTION" EntityType="Self.SECTION" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Student" EntityType="Self.Student" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="SubjectInfo" EntityType="Self.SubjectInfo" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tblClass" EntityType="Self.tblClass" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Teacher" EntityType="Self.Teacher" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="StudentInformation" EntityType="Self.StudentInformation" store:Type="Views" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [StudentInformation].[ClassName] AS [ClassName], 
+    [StudentInformation].[SectionName] AS [SectionName], 
+    [StudentInformation].[DateOfAdmission] AS [DateOfAdmission], 
+    [StudentInformation].[StudentFirstName] AS [StudentFirstName], 
+    [StudentInformation].[StudentMiddleName] AS [StudentMiddleName], 
+    [StudentInformation].[StudentLastName] AS [StudentLastName], 
+    [StudentInformation].[FathersName] AS [FathersName], 
+    [StudentInformation].[MothersName] AS [MothersName], 
+    [StudentInformation].[DOB] AS [DOB], 
+    [StudentInformation].[Religion] AS [Religion], 
+    [StudentInformation].[Nationality] AS [Nationality], 
+    [StudentInformation].[RelationWithGardians] AS [RelationWithGardians]
+    FROM [dbo].[StudentInformation] AS [StudentInformation]</DefiningQuery>
+    </EntitySet>
+    <EntitySet Name="TeacherInformationview" EntityType="Self.TeacherInformationview" store:Type="Views" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [TeacherInformationview].[TeacherId] AS [TeacherId], 
+    [TeacherInformationview].[TeacherFirstName] AS [TeacherFirstName], 
+    [TeacherInformationview].[TeacherLastName] AS [TeacherLastName], 
+    [TeacherInformationview].[FatherName] AS [FatherName], 
+    [TeacherInformationview].[Gender] AS [Gender], 
+    [TeacherInformationview].[Nationality] AS [Nationality], 
+    [TeacherInformationview].[Religion] AS [Religion], 
+    [TeacherInformationview].[Depertment] AS [Depertment], 
+    [TeacherInformationview].[TeachingExprienceYear] AS [TeachingExprienceYear], 
+    [TeacherInformationview].[TraingName] AS [TraingName]
+    FROM [dbo].[TeacherInformationview] AS [TeacherInformationview]</DefiningQuery>
+    </EntitySet>
+    <AssociationSet Name="FK__Attendenc__Class__4F7CD00D" Association="Self.FK__Attendenc__Class__4F7CD00D">
+      <End Role="tblClass" EntitySet="tblClass" />
+      <End Role="Attendence" EntitySet="Attendence" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Attendenc__Stude__5070F446" Association="Self.FK__Attendenc__Stude__5070F446">
+      <End Role="Student" EntitySet="Student" />
+      <End Role="Attendence" EntitySet="Attendence" />
+    </AssociationSet>
+    <AssociationSet Name="FK__ClassRout__Class__4AB81AF0" Association="Self.FK__ClassRout__Class__4AB81AF0">
+      <End Role="tblClass" EntitySet="tblClass" />
+      <End Role="ClassRoutine" EntitySet="ClassRoutine" />
+    </AssociationSet>
+    <AssociationSet Name="FK__ClassRout__Secti__4BAC3F29" Association="Self.FK__ClassRout__Secti__4BAC3F29">
+      <End Role="SECTION" EntitySet="SECTION" />
+      <End Role="ClassRoutine" EntitySet="ClassRoutine" />
+    </AssociationSet>
+    <AssociationSet Name="FK__ClassRout__Subje__4CA06362" Association="Self.FK__ClassRout__Subje__4CA06362">
+      <End Role="SubjectInfo" EntitySet="SubjectInfo" />
+      <End Role="ClassRoutine" EntitySet="ClassRoutine" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Exam__ClassID__47DBAE45" Association="Self.FK__Exam__ClassID__47DBAE45">
+      <End Role="tblClass" EntitySet="tblClass" />
+      <End Role="Exam" EntitySet="Exam" />
+    </AssociationSet>
+    <AssociationSet Name="FK__MARKS__ClassID__5535A963" Association="Self.FK__MARKS__ClassID__5535A963">
+      <End Role="tblClass" EntitySet="tblClass" />
+      <End Role="MARKS" EntitySet="MARKS" />
+    </AssociationSet>
+    <AssociationSet Name="FK__MARKS__ExamID__5441852A" Association="Self.FK__MARKS__ExamID__5441852A">
+      <End Role="Exam" EntitySet="Exam" />
+      <End Role="MARKS" EntitySet="MARKS" />
+    </AssociationSet>
+    <AssociationSet Name="FK__MARKS__StudentID__571DF1D5" Association="Self.FK__MARKS__StudentID__571DF1D5">
+      <End Role="Student" EntitySet="Student" />
+      <End Role="MARKS" EntitySet="MARKS" />
+    </AssociationSet>
+    <AssociationSet Name="FK__MARKS__SubjectID__5629CD9C" Association="Self.FK__MARKS__SubjectID__5629CD9C">
+      <End Role="SubjectInfo" EntitySet="SubjectInfo" />
+      <End Role="MARKS" EntitySet="MARKS" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Student__ClassID__4316F928" Association="Self.FK__Student__ClassID__4316F928">
+      <End Role="tblClass" EntitySet="tblClass" />
+      <End Role="Student" EntitySet="Student" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Student__ParentI__44FF419A" Association="Self.FK__Student__ParentI__44FF419A">
+      <End Role="Parent" EntitySet="Parent" />
+      <End Role="Student" EntitySet="Student" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Student__Section__440B1D61" Association="Self.FK__Student__Section__440B1D61">
+      <End Role="SECTION" EntitySet="SECTION" />
+      <End Role="Student" EntitySet="Student" />
+    </AssociationSet>
+    <AssociationSet Name="FK__SubjectIn__Class__3E52440B" Association="Self.FK__SubjectIn__Class__3E52440B">
+      <End Role="tblClass" EntitySet="tblClass" />
+      <End Role="SubjectInfo" EntitySet="SubjectInfo" />
+    </AssociationSet>
+    <AssociationSet Name="FK__tblClass__Sectio__3A81B327" Association="Self.FK__tblClass__Sectio__3A81B327">
+      <End Role="SECTION" EntitySet="SECTION" />
+      <End Role="tblClass" EntitySet="tblClass" />
+    </AssociationSet>
+    <AssociationSet Name="FK__tblClass__Teacha__3B75D760" Association="Self.FK__tblClass__Teacha__3B75D760">
+      <End Role="Teacher" EntitySet="Teacher" />
+      <End Role="tblClass" EntitySet="tblClass" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ATT_TOStudent" Association="Self.FK_ATT_TOStudent">
+      <End Role="Attendence" EntitySet="Attendence" />
+      <End Role="Student" EntitySet="Student" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>
